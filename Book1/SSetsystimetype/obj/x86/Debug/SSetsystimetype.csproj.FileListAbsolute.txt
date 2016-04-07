@@ -1,0 +1,14 @@
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\obj\x86\Debug\SSetsystimetype.Form1.resources
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\obj\x86\Debug\SSetsystimetype.Properties.Resources.resources
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\bin\Debug\SSetsystimetype.exe
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\bin\Debug\SSetsystimetype.pdb
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\obj\x86\Debug\SSetsystimetype.exe
+C:\Users\lenovo\Desktop\work\test\SSetsystimetype\SSetsystimetype\obj\x86\Debug\SSetsystimetype.pdb
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\obj\x86\Debug\SSetsystimetype.exe
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\obj\x86\Debug\SSetsystimetype.pdb
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\bin\Debug\SSetsystimetype.exe
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\bin\Debug\SSetsystimetype.pdb
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\obj\x86\Debug\SSetsystimetype.Form1.resources
+C:\Users\lenovo\Desktop\work\test\更改系统日期格式\SSetsystimetype\obj\x86\Debug\SSetsystimetype.Properties.Resources.resources
