@@ -72,27 +72,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2", "..\..\WebSite2\
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2", "..\..\WebSite2\", "{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/WebSite2"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSite2\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite2\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/WebSite2"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSite2\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite2\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "41967"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = book1.vsmdi
@@ -366,16 +345,6 @@ Global
 		{99880AE0-579E-47F5-B8F7-963EB47FF08F}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{99880AE0-579E-47F5-B8F7-963EB47FF08F}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 		{99880AE0-579E-47F5-B8F7-963EB47FF08F}.Release|x86.ActiveCfg = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
-		{17FE6FE6-E6A3-4E7D-BE09-0A981448CB26}.Release|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

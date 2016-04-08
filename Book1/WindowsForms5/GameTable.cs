@@ -141,6 +141,12 @@ namespace WindowsForms5
         /// <param name="color">棋子颜色</param>
         public void UnsetDot(int i,int j,int color)
         {
+            //向两个用户发送消去棋子的信息
+            //格式： UnsetDot,行，列，黑方成绩，白方成绩
+            grid[i, j] = None;
+            gamePlayer[color].grade++;
+            string str = string.Format("UnsetDot,{0},{1},{2},{3}",i,j,gamePlayer[0].grade,gamePlayer[1].grade);
+            service.SendToBoth(this, str);
         }
     }
 }
