@@ -1,0 +1,8 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\bin\Debug\FullWindows.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\bin\Debug\FullWindows.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\obj\x86\Debug\FullWindows.Form1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\obj\x86\Debug\FullWindows.Form2.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\obj\x86\Debug\FullWindows.Properties.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\obj\x86\Debug\SFullWindows.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\obj\x86\Debug\FullWindows.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\FullWindows\obj\x86\Debug\FullWindows.pdb

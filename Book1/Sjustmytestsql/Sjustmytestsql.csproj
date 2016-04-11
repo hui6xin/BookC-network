@@ -81,6 +81,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qds114325507_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qds114325507_dbDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +139,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="link_128px_1190280_easyicon.net.ico" />
+    <None Include="qds114325507_dbDataSet.xsc">
+      <DependentUpon>qds114325507_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="qds114325507_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>qds114325507_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="qds114325507_dbDataSet.xss">
+      <DependentUpon>qds114325507_dbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\Icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

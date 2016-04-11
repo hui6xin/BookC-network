@@ -22,13 +22,6 @@ namespace Sjustmytestsql
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            //// TODO: 这行代码将数据加载到表“qds167524424_dbDataSet.南京金苹果智能科技”中。您可以根据需要移动或删除它。
-            //this.南京金苹果智能科技TableAdapter.Fill(this.qds167524424_dbDataSet.南京金苹果智能科技);
-            //// TODO: 这行代码将数据加载到表“qds167524424_dbDataSet.测试主机一”中。您可以根据需要移动或删除它。
-            //this.测试主机一TableAdapter.Fill(this.qds167524424_dbDataSet.测试主机一);
-            //// TODO: 这行代码将数据加载到表“qds167524424_dbDataSet.TagInfoTable”中。您可以根据需要移动或删除它。
-            //this.tagInfoTableTableAdapter.Fill(this.qds167524424_dbDataSet.TagInfoTable);
-
             sqlCnt.StateChange += new StateChangeEventHandler(sqlCnt_StateChange);
         }
 
@@ -170,8 +163,8 @@ namespace Sjustmytestsql
         private SqlDataAdapter dataAdapter = new SqlDataAdapter();
         private void button3_Click(object sender, EventArgs e)
         {
-            //this.tagInfoTableTableAdapter.GetData();
-            //this.tagInfoTableTableAdapter.Fill(this.qds167524424_dbDataSet.TagInfoTable);
+            // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet.THos1”中。您可以根据需要移动或删除它。
+            this.tHos1TableAdapter.Fill(this.qds114325507_dbDataSet.THos1);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -329,6 +322,58 @@ namespace Sjustmytestsql
             }
             objConnetion.Close();
             return Columnlist;
+        }
+
+        private void comboBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (sqlCnt.State != ConnectionState.Open)
+                return;
+            if (string.IsNullOrEmpty(comboBox1.Text))
+                return;
+            string[] shosindex=comboBox1.Text.Split(',');
+            //int ihosindex=int.Parse(shosindex[0]);
+            //string ssqlbefore = this.tHos1TableAdapter.Adapter.SelectCommand.CommandText;
+            string sss = "SELECT Id, Active_ID, b_VoltLow, bConnect, Reader_ID, Readtime, str_ReaderIP, Tag_ID, Value1, Value2, Value3, Uid,"
+                +"MotherName, status, b_left, Left_time, Left_hour, Left_min, sec_overtime, Last_time, event_time, up_time, sec_upalt,"
+                +"b_in_load, b_in_unload, b_in_warning, Record_time, RFID_remark, s_tel, Tag_RoomId, Tag_BedId, SqlSendTime,"
+                + "HospitalName FROM THos" + shosindex[0];
+            if (this.tHos1TableAdapter.CommandCollection.Length > 0)
+            {
+                this.tHos1TableAdapter.Adapter.SelectCommand = new SqlCommand(sss);
+                this.tHos1TableAdapter.CommandCollection[0].CommandText = sss;
+            }
+
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (sqlCnt.State != ConnectionState.Open)
+                return;
+            //this.tagInfoTableTableAdapter.GetData();
+            //this.tagInfoTableTableAdapter.Fill(this.qds167524424_dbDataSet.TagInfoTable);
+            comboBox1.Items.Clear();
+            try
+            {
+                string sql = "select * from HosReg";
+                SqlCommand cmd = new SqlCommand(sql, sqlCnt);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    string ss = reader["ID"].ToString().Trim() + "," + reader["HOSPITALNAME"].ToString().Trim();
+                    comboBox1.Items.Add(ss);
+                }
+                reader.Close();
+            }
+            catch
+            {
+            }
+            comboBox1.SelectedIndex = comboBox1.Items.Count > 0 ? 0 : -1;
         }
     }
 }

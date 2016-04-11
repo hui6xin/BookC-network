@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\bin\Debug\STest.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\bin\Debug\STest.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\obj\x86\Debug\STest.Form1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\obj\x86\Debug\STest.Properties.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\obj\x86\Debug\STest.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\obj\x86\Debug\STest.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\STest\obj\x86\Debug\STest.pdb

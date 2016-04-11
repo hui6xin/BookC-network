@@ -1,0 +1,6 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\mycontrol\bin\Debug\mycontrol.dll
+C:\Users\lenovo\Desktop\BookC-network\Book1\mycontrol\bin\Debug\mycontrol.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\mycontrol\obj\Debug\mycontrol.UserControl1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\mycontrol\obj\Debug\Smycontrol 图片显示.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\mycontrol\obj\Debug\mycontrol.dll
+C:\Users\lenovo\Desktop\BookC-network\Book1\mycontrol\obj\Debug\mycontrol.pdb

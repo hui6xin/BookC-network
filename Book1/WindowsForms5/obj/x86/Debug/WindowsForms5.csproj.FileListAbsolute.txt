@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.Form1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.FormServer.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.Properties.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.server1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.SyncChatClient.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\bin\Debug\WindowsForms5.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\bin\Debug\WindowsForms5.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms5\obj\x86\Debug\WindowsForms5.pdb

@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\bin\Debug\formfocuscues.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\bin\Debug\formfocuscues.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.Form1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.mybutton.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.mybutton3.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.Properties.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.UserControl1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\S去除button聚焦框.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\formfocuscues\obj\x86\Debug\formfocuscues.pdb

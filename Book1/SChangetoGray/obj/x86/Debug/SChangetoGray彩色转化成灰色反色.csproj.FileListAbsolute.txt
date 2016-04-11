@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\bin\Debug\SChangetoGray.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\bin\Debug\SChangetoGray.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\obj\x86\Debug\SChangetoGray.Form1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\obj\x86\Debug\SChangetoGray.Properties.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\obj\x86\Debug\SChangetoGray彩色转化成灰色反色.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\obj\x86\Debug\SChangetoGray.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\SChangetoGray\obj\x86\Debug\SChangetoGray.pdb

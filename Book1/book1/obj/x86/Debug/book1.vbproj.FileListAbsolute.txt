@@ -1,0 +1,8 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\bin\Debug\book1.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\bin\Debug\book1.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\bin\Debug\book1.xml
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\obj\x86\Debug\book1.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\obj\x86\Debug\book1.vbproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\obj\x86\Debug\book1.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\obj\x86\Debug\book1.xml
+C:\Users\lenovo\Desktop\BookC-network\Book1\book1\obj\x86\Debug\book1.pdb

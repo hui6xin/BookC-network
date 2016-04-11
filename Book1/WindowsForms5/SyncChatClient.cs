@@ -165,7 +165,7 @@ namespace WindowsForms5
 
         private void SyncChatClient_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (client != null) ;
+            if (client != null) 
             {
                 SendMessage("Logout," + textBox1.Text);
                 isExit = true;

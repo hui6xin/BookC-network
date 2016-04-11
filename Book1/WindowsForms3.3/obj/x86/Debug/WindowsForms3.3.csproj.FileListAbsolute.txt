@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\bin\Debug\WindowsForms3.3.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\bin\Debug\WindowsForms3.3.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\obj\x86\Debug\WindowsForms3._3.Form1.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\obj\x86\Debug\WindowsForms3._3.Properties.Resources.resources
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\obj\x86\Debug\WindowsForms3.3.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\obj\x86\Debug\WindowsForms3.3.exe
+C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms3.3\obj\x86\Debug\WindowsForms3.3.pdb

@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="qds114325507_dbDataSet" targetNamespace="http://tempuri.org/qds114325507_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/qds114325507_dbDataSet.xsd" xmlns="http://tempuri.org/qds114325507_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="qds114325507_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="qds114325507_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sjustmytestsql.Properties.Settings.GlobalReference.Default.qds114325507_dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="THos1TableAdapter" GeneratorDataComponentClassName="THos1TableAdapter" Name="THos1" UserDataComponentName="THos1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="qds114325507_dbConnectionString (Settings)" DbObjectName="qds114325507_db.dbo.THos1" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[THos1] WHERE (([Id] = @Original_Id) AND ((@IsNull_Active_ID = 1 AND [Active_ID] IS NULL) OR ([Active_ID] = @Original_Active_ID)) AND ((@IsNull_b_VoltLow = 1 AND [b_VoltLow] IS NULL) OR ([b_VoltLow] = @Original_b_VoltLow)) AND ((@IsNull_bConnect = 1 AND [bConnect] IS NULL) OR ([bConnect] = @Original_bConnect)) AND ((@IsNull_Reader_ID = 1 AND [Reader_ID] IS NULL) OR ([Reader_ID] = @Original_Reader_ID)) AND ((@IsNull_Readtime = 1 AND [Readtime] IS NULL) OR ([Readtime] = @Original_Readtime)) AND ((@IsNull_str_ReaderIP = 1 AND [str_ReaderIP] IS NULL) OR ([str_ReaderIP] = @Original_str_ReaderIP)) AND ((@IsNull_Tag_ID = 1 AND [Tag_ID] IS NULL) OR ([Tag_ID] = @Original_Tag_ID)) AND ((@IsNull_Value1 = 1 AND [Value1] IS NULL) OR ([Value1] = @Original_Value1)) AND ((@IsNull_Value2 = 1 AND [Value2] IS NULL) OR ([Value2] = @Original_Value2)) AND ((@IsNull_Value3 = 1 AND [Value3] IS NULL) OR ([Value3] = @Original_Value3)) AND ((@IsNull_Uid = 1 AND [Uid] IS NULL) OR ([Uid] = @Original_Uid)) AND ((@IsNull_MotherName = 1 AND [MotherName] IS NULL) OR ([MotherName] = @Original_MotherName)) AND ((@IsNull_status = 1 AND [status] IS NULL) OR ([status] = @Original_status)) AND ((@IsNull_b_left = 1 AND [b_left] IS NULL) OR ([b_left] = @Original_b_left)) AND ((@IsNull_Left_time = 1 AND [Left_time] IS NULL) OR ([Left_time] = @Original_Left_time)) AND ((@IsNull_Left_hour = 1 AND [Left_hour] IS NULL) OR ([Left_hour] = @Original_Left_hour)) AND ((@IsNull_Left_min = 1 AND [Left_min] IS NULL) OR ([Left_min] = @Original_Left_min)) AND ((@IsNull_sec_overtime = 1 AND [sec_overtime] IS NULL) OR ([sec_overtime] = @Original_sec_overtime)) AND ((@IsNull_Last_time = 1 AND [Last_time] IS NULL) OR ([Last_time] = @Original_Last_time)) AND ((@IsNull_event_time = 1 AND [event_time] IS NULL) OR ([event_time] = @Original_event_time)) AND ((@IsNull_up_time = 1 AND [up_time] IS NULL) OR ([up_time] = @Original_up_time)) AND ((@IsNull_sec_upalt = 1 AND [sec_upalt] IS NULL) OR ([sec_upalt] = @Original_sec_upalt)) AND ((@IsNull_b_in_load = 1 AND [b_in_load] IS NULL) OR ([b_in_load] = @Original_b_in_load)) AND ((@IsNull_b_in_unload = 1 AND [b_in_unload] IS NULL) OR ([b_in_unload] = @Original_b_in_unload)) AND ((@IsNull_b_in_warning = 1 AND [b_in_warning] IS NULL) OR ([b_in_warning] = @Original_b_in_warning)) AND ((@IsNull_Record_time = 1 AND [Record_time] IS NULL) OR ([Record_time] = @Original_Record_time)) AND ((@IsNull_RFID_remark = 1 AND [RFID_remark] IS NULL) OR ([RFID_remark] = @Original_RFID_remark)) AND ((@IsNull_s_tel = 1 AND [s_tel] IS NULL) OR ([s_tel] = @Original_s_tel)) AND ((@IsNull_Tag_RoomId = 1 AND [Tag_RoomId] IS NULL) OR ([Tag_RoomId] = @Original_Tag_RoomId)) AND ((@IsNull_Tag_BedId = 1 AND [Tag_BedId] IS NULL) OR ([Tag_BedId] = @Original_Tag_BedId)) AND ((@IsNull_SqlSendTime = 1 AND [SqlSendTime] IS NULL) OR ([SqlSendTime] = @Original_SqlSendTime)) AND ((@IsNull_HospitalName = 1 AND [HospitalName] IS NULL) OR ([HospitalName] = @Original_HospitalName)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Active_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Active_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Active_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Active_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_VoltLow" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_VoltLow" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_VoltLow" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_VoltLow" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_bConnect" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="bConnect" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_bConnect" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="bConnect" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Reader_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Reader_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Reader_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Reader_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Readtime" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Readtime" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Readtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Readtime" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_str_ReaderIP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="str_ReaderIP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_str_ReaderIP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="str_ReaderIP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tag_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tag_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Tag_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Value1" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Value1" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Value1" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value1" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Value2" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Value2" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Value2" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value2" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Value3" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Value3" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Value3" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value3" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Uid" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Uid" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Uid" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Uid" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_MotherName" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_MotherName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="status" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_status" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="status" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_left" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_left" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_left" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_left" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Left_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Left_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Left_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Left_hour" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Left_hour" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Left_hour" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_hour" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Left_min" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Left_min" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Left_min" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_min" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_sec_overtime" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="sec_overtime" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_sec_overtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_overtime" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Last_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Last_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Last_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Last_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_event_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="event_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_event_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="event_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_up_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="up_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_up_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="up_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_sec_upalt" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="sec_upalt" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_sec_upalt" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_upalt" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_in_load" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_in_load" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_in_load" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_load" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_in_unload" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_in_unload" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_in_unload" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_unload" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_in_warning" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_in_warning" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_in_warning" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_warning" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Record_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Record_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Record_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Record_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_RFID_remark" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RFID_remark" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_RFID_remark" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="RFID_remark" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_s_tel" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="s_tel" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_s_tel" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="s_tel" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tag_RoomId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tag_RoomId" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Tag_RoomId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_RoomId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tag_BedId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tag_BedId" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Tag_BedId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_BedId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SqlSendTime" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SqlSendTime" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_SqlSendTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SqlSendTime" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_HospitalName" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="HospitalName" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_HospitalName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="HospitalName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[THos1] ([Active_ID], [b_VoltLow], [bConnect], [Reader_ID], [Readtime], [str_ReaderIP], [Tag_ID], [Value1], [Value2], [Value3], [Uid], [MotherName], [status], [b_left], [Left_time], [Left_hour], [Left_min], [sec_overtime], [Last_time], [event_time], [up_time], [sec_upalt], [b_in_load], [b_in_unload], [b_in_warning], [Record_time], [RFID_remark], [s_tel], [Tag_RoomId], [Tag_BedId], [SqlSendTime], [HospitalName]) VALUES (@Active_ID, @b_VoltLow, @bConnect, @Reader_ID, @Readtime, @str_ReaderIP, @Tag_ID, @Value1, @Value2, @Value3, @Uid, @MotherName, @status, @b_left, @Left_time, @Left_hour, @Left_min, @sec_overtime, @Last_time, @event_time, @up_time, @sec_upalt, @b_in_load, @b_in_unload, @b_in_warning, @Record_time, @RFID_remark, @s_tel, @Tag_RoomId, @Tag_BedId, @SqlSendTime, @HospitalName);
+SELECT Id, Active_ID, b_VoltLow, bConnect, Reader_ID, Readtime, str_ReaderIP, Tag_ID, Value1, Value2, Value3, Uid, MotherName, status, b_left, Left_time, Left_hour, Left_min, sec_overtime, Last_time, event_time, up_time, sec_upalt, b_in_load, b_in_unload, b_in_warning, Record_time, RFID_remark, s_tel, Tag_RoomId, Tag_BedId, SqlSendTime, HospitalName FROM THos1 WHERE (Id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Active_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Active_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_VoltLow" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_VoltLow" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@bConnect" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="bConnect" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Reader_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Reader_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Readtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Readtime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@str_ReaderIP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="str_ReaderIP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Tag_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Value1" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Value2" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value2" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Value3" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Uid" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Uid" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@MotherName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@status" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="status" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_left" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_left" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Left_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Left_hour" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_hour" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Left_min" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_min" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@sec_overtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_overtime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Last_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Last_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@event_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="event_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@up_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="up_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@sec_upalt" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_upalt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_in_load" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_load" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_in_unload" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_unload" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_in_warning" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_warning" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Record_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Record_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@RFID_remark" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="RFID_remark" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@s_tel" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="s_tel" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Tag_RoomId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_RoomId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Tag_BedId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_BedId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@SqlSendTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SqlSendTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@HospitalName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="HospitalName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id, Active_ID, b_VoltLow, bConnect, Reader_ID, Readtime, str_ReaderIP, Tag_ID, Value1, Value2, Value3, Uid, MotherName, status, b_left, Left_time, Left_hour, Left_min, sec_overtime, Last_time, event_time, up_time, sec_upalt, b_in_load, b_in_unload, b_in_warning, Record_time, RFID_remark, s_tel, Tag_RoomId, Tag_BedId, SqlSendTime, HospitalName FROM dbo.THos1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[THos1] SET [Active_ID] = @Active_ID, [b_VoltLow] = @b_VoltLow, [bConnect] = @bConnect, [Reader_ID] = @Reader_ID, [Readtime] = @Readtime, [str_ReaderIP] = @str_ReaderIP, [Tag_ID] = @Tag_ID, [Value1] = @Value1, [Value2] = @Value2, [Value3] = @Value3, [Uid] = @Uid, [MotherName] = @MotherName, [status] = @status, [b_left] = @b_left, [Left_time] = @Left_time, [Left_hour] = @Left_hour, [Left_min] = @Left_min, [sec_overtime] = @sec_overtime, [Last_time] = @Last_time, [event_time] = @event_time, [up_time] = @up_time, [sec_upalt] = @sec_upalt, [b_in_load] = @b_in_load, [b_in_unload] = @b_in_unload, [b_in_warning] = @b_in_warning, [Record_time] = @Record_time, [RFID_remark] = @RFID_remark, [s_tel] = @s_tel, [Tag_RoomId] = @Tag_RoomId, [Tag_BedId] = @Tag_BedId, [SqlSendTime] = @SqlSendTime, [HospitalName] = @HospitalName WHERE (([Id] = @Original_Id) AND ((@IsNull_Active_ID = 1 AND [Active_ID] IS NULL) OR ([Active_ID] = @Original_Active_ID)) AND ((@IsNull_b_VoltLow = 1 AND [b_VoltLow] IS NULL) OR ([b_VoltLow] = @Original_b_VoltLow)) AND ((@IsNull_bConnect = 1 AND [bConnect] IS NULL) OR ([bConnect] = @Original_bConnect)) AND ((@IsNull_Reader_ID = 1 AND [Reader_ID] IS NULL) OR ([Reader_ID] = @Original_Reader_ID)) AND ((@IsNull_Readtime = 1 AND [Readtime] IS NULL) OR ([Readtime] = @Original_Readtime)) AND ((@IsNull_str_ReaderIP = 1 AND [str_ReaderIP] IS NULL) OR ([str_ReaderIP] = @Original_str_ReaderIP)) AND ((@IsNull_Tag_ID = 1 AND [Tag_ID] IS NULL) OR ([Tag_ID] = @Original_Tag_ID)) AND ((@IsNull_Value1 = 1 AND [Value1] IS NULL) OR ([Value1] = @Original_Value1)) AND ((@IsNull_Value2 = 1 AND [Value2] IS NULL) OR ([Value2] = @Original_Value2)) AND ((@IsNull_Value3 = 1 AND [Value3] IS NULL) OR ([Value3] = @Original_Value3)) AND ((@IsNull_Uid = 1 AND [Uid] IS NULL) OR ([Uid] = @Original_Uid)) AND ((@IsNull_MotherName = 1 AND [MotherName] IS NULL) OR ([MotherName] = @Original_MotherName)) AND ((@IsNull_status = 1 AND [status] IS NULL) OR ([status] = @Original_status)) AND ((@IsNull_b_left = 1 AND [b_left] IS NULL) OR ([b_left] = @Original_b_left)) AND ((@IsNull_Left_time = 1 AND [Left_time] IS NULL) OR ([Left_time] = @Original_Left_time)) AND ((@IsNull_Left_hour = 1 AND [Left_hour] IS NULL) OR ([Left_hour] = @Original_Left_hour)) AND ((@IsNull_Left_min = 1 AND [Left_min] IS NULL) OR ([Left_min] = @Original_Left_min)) AND ((@IsNull_sec_overtime = 1 AND [sec_overtime] IS NULL) OR ([sec_overtime] = @Original_sec_overtime)) AND ((@IsNull_Last_time = 1 AND [Last_time] IS NULL) OR ([Last_time] = @Original_Last_time)) AND ((@IsNull_event_time = 1 AND [event_time] IS NULL) OR ([event_time] = @Original_event_time)) AND ((@IsNull_up_time = 1 AND [up_time] IS NULL) OR ([up_time] = @Original_up_time)) AND ((@IsNull_sec_upalt = 1 AND [sec_upalt] IS NULL) OR ([sec_upalt] = @Original_sec_upalt)) AND ((@IsNull_b_in_load = 1 AND [b_in_load] IS NULL) OR ([b_in_load] = @Original_b_in_load)) AND ((@IsNull_b_in_unload = 1 AND [b_in_unload] IS NULL) OR ([b_in_unload] = @Original_b_in_unload)) AND ((@IsNull_b_in_warning = 1 AND [b_in_warning] IS NULL) OR ([b_in_warning] = @Original_b_in_warning)) AND ((@IsNull_Record_time = 1 AND [Record_time] IS NULL) OR ([Record_time] = @Original_Record_time)) AND ((@IsNull_RFID_remark = 1 AND [RFID_remark] IS NULL) OR ([RFID_remark] = @Original_RFID_remark)) AND ((@IsNull_s_tel = 1 AND [s_tel] IS NULL) OR ([s_tel] = @Original_s_tel)) AND ((@IsNull_Tag_RoomId = 1 AND [Tag_RoomId] IS NULL) OR ([Tag_RoomId] = @Original_Tag_RoomId)) AND ((@IsNull_Tag_BedId = 1 AND [Tag_BedId] IS NULL) OR ([Tag_BedId] = @Original_Tag_BedId)) AND ((@IsNull_SqlSendTime = 1 AND [SqlSendTime] IS NULL) OR ([SqlSendTime] = @Original_SqlSendTime)) AND ((@IsNull_HospitalName = 1 AND [HospitalName] IS NULL) OR ([HospitalName] = @Original_HospitalName)));
+SELECT Id, Active_ID, b_VoltLow, bConnect, Reader_ID, Readtime, str_ReaderIP, Tag_ID, Value1, Value2, Value3, Uid, MotherName, status, b_left, Left_time, Left_hour, Left_min, sec_overtime, Last_time, event_time, up_time, sec_upalt, b_in_load, b_in_unload, b_in_warning, Record_time, RFID_remark, s_tel, Tag_RoomId, Tag_BedId, SqlSendTime, HospitalName FROM THos1 WHERE (Id = @Id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Active_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Active_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_VoltLow" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_VoltLow" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@bConnect" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="bConnect" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Reader_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Reader_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Readtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Readtime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@str_ReaderIP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="str_ReaderIP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Tag_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Value1" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Value2" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value2" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Value3" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Uid" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Uid" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@MotherName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@status" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="status" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_left" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_left" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Left_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Left_hour" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_hour" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Left_min" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_min" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@sec_overtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_overtime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Last_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Last_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@event_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="event_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@up_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="up_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@sec_upalt" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_upalt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_in_load" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_load" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_in_unload" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_unload" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@b_in_warning" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_warning" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Record_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Record_time" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@RFID_remark" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="RFID_remark" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@s_tel" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="s_tel" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Tag_RoomId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_RoomId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Tag_BedId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_BedId" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@SqlSendTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SqlSendTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@HospitalName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="HospitalName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Active_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Active_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Active_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Active_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_VoltLow" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_VoltLow" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_VoltLow" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_VoltLow" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_bConnect" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="bConnect" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_bConnect" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="bConnect" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Reader_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Reader_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Reader_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Reader_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Readtime" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Readtime" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Readtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Readtime" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_str_ReaderIP" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="str_ReaderIP" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_str_ReaderIP" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="str_ReaderIP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tag_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tag_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Tag_ID" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Value1" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Value1" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Value1" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value1" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Value2" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Value2" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Value2" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value2" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Value3" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Value3" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Value3" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Value3" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Uid" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Uid" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Uid" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Uid" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_MotherName" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_MotherName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="status" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_status" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="status" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_left" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_left" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_left" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_left" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Left_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Left_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Left_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Left_hour" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Left_hour" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Left_hour" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_hour" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Left_min" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Left_min" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Left_min" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Left_min" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_sec_overtime" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="sec_overtime" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_sec_overtime" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_overtime" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Last_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Last_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Last_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Last_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_event_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="event_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_event_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="event_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_up_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="up_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_up_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="up_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_sec_upalt" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="sec_upalt" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_sec_upalt" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sec_upalt" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_in_load" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_in_load" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_in_load" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_load" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_in_unload" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_in_unload" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_in_unload" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_unload" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_b_in_warning" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="b_in_warning" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_b_in_warning" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="b_in_warning" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Record_time" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Record_time" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Record_time" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Record_time" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_RFID_remark" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="RFID_remark" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_RFID_remark" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="RFID_remark" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_s_tel" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="s_tel" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_s_tel" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="s_tel" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tag_RoomId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tag_RoomId" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Tag_RoomId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_RoomId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Tag_BedId" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tag_BedId" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_Tag_BedId" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="Tag_BedId" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SqlSendTime" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="SqlSendTime" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_SqlSendTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="SqlSendTime" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_HospitalName" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="HospitalName" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_HospitalName" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="HospitalName" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="Id" ColumnName="Id" DataSourceName="qds114325507_db.dbo.THos1" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="Id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Active_ID" DataSetColumn="Active_ID" />
+              <Mapping SourceColumn="b_VoltLow" DataSetColumn="b_VoltLow" />
+              <Mapping SourceColumn="bConnect" DataSetColumn="bConnect" />
+              <Mapping SourceColumn="Reader_ID" DataSetColumn="Reader_ID" />
+              <Mapping SourceColumn="Readtime" DataSetColumn="Readtime" />
+              <Mapping SourceColumn="str_ReaderIP" DataSetColumn="str_ReaderIP" />
+              <Mapping SourceColumn="Tag_ID" DataSetColumn="Tag_ID" />
+              <Mapping SourceColumn="Value1" DataSetColumn="Value1" />
+              <Mapping SourceColumn="Value2" DataSetColumn="Value2" />
+              <Mapping SourceColumn="Value3" DataSetColumn="Value3" />
+              <Mapping SourceColumn="Uid" DataSetColumn="Uid" />
+              <Mapping SourceColumn="MotherName" DataSetColumn="MotherName" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="b_left" DataSetColumn="b_left" />
+              <Mapping SourceColumn="Left_time" DataSetColumn="Left_time" />
+              <Mapping SourceColumn="Left_hour" DataSetColumn="Left_hour" />
+              <Mapping SourceColumn="Left_min" DataSetColumn="Left_min" />
+              <Mapping SourceColumn="sec_overtime" DataSetColumn="sec_overtime" />
+              <Mapping SourceColumn="Last_time" DataSetColumn="Last_time" />
+              <Mapping SourceColumn="event_time" DataSetColumn="event_time" />
+              <Mapping SourceColumn="up_time" DataSetColumn="up_time" />
+              <Mapping SourceColumn="sec_upalt" DataSetColumn="sec_upalt" />
+              <Mapping SourceColumn="b_in_load" DataSetColumn="b_in_load" />
+              <Mapping SourceColumn="b_in_unload" DataSetColumn="b_in_unload" />
+              <Mapping SourceColumn="b_in_warning" DataSetColumn="b_in_warning" />
+              <Mapping SourceColumn="Record_time" DataSetColumn="Record_time" />
+              <Mapping SourceColumn="RFID_remark" DataSetColumn="RFID_remark" />
+              <Mapping SourceColumn="s_tel" DataSetColumn="s_tel" />
+              <Mapping SourceColumn="Tag_RoomId" DataSetColumn="Tag_RoomId" />
+              <Mapping SourceColumn="Tag_BedId" DataSetColumn="Tag_BedId" />
+              <Mapping SourceColumn="SqlSendTime" DataSetColumn="SqlSendTime" />
+              <Mapping SourceColumn="HospitalName" DataSetColumn="HospitalName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="qds114325507_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="qds114325507_dbDataSet" msprop:Generator_UserDSName="qds114325507_dbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="THos1" msprop:Generator_TableClassName="THos1DataTable" msprop:Generator_TableVarName="tableTHos1" msprop:Generator_TablePropName="THos1" msprop:Generator_RowDeletingName="THos1RowDeleting" msprop:Generator_RowChangingName="THos1RowChanging" msprop:Generator_RowEvHandlerName="THos1RowChangeEventHandler" msprop:Generator_RowDeletedName="THos1RowDeleted" msprop:Generator_UserTableName="THos1" msprop:Generator_RowChangedName="THos1RowChanged" msprop:Generator_RowEvArgName="THos1RowChangeEvent" msprop:Generator_RowClassName="THos1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Active_ID" msprop:Generator_ColumnVarNameInTable="columnActive_ID" msprop:Generator_ColumnPropNameInRow="Active_ID" msprop:Generator_ColumnPropNameInTable="Active_IDColumn" msprop:Generator_UserColumnName="Active_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="b_VoltLow" msprop:Generator_ColumnVarNameInTable="columnb_VoltLow" msprop:Generator_ColumnPropNameInRow="b_VoltLow" msprop:Generator_ColumnPropNameInTable="b_VoltLowColumn" msprop:Generator_UserColumnName="b_VoltLow" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bConnect" msprop:Generator_ColumnVarNameInTable="columnbConnect" msprop:Generator_ColumnPropNameInRow="bConnect" msprop:Generator_ColumnPropNameInTable="bConnectColumn" msprop:Generator_UserColumnName="bConnect" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reader_ID" msprop:Generator_ColumnVarNameInTable="columnReader_ID" msprop:Generator_ColumnPropNameInRow="Reader_ID" msprop:Generator_ColumnPropNameInTable="Reader_IDColumn" msprop:Generator_UserColumnName="Reader_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Readtime" msprop:Generator_ColumnVarNameInTable="columnReadtime" msprop:Generator_ColumnPropNameInRow="Readtime" msprop:Generator_ColumnPropNameInTable="ReadtimeColumn" msprop:Generator_UserColumnName="Readtime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="str_ReaderIP" msprop:Generator_ColumnVarNameInTable="columnstr_ReaderIP" msprop:Generator_ColumnPropNameInRow="str_ReaderIP" msprop:Generator_ColumnPropNameInTable="str_ReaderIPColumn" msprop:Generator_UserColumnName="str_ReaderIP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag_ID" msprop:Generator_ColumnVarNameInTable="columnTag_ID" msprop:Generator_ColumnPropNameInRow="Tag_ID" msprop:Generator_ColumnPropNameInTable="Tag_IDColumn" msprop:Generator_UserColumnName="Tag_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value1" msprop:Generator_ColumnVarNameInTable="columnValue1" msprop:Generator_ColumnPropNameInRow="Value1" msprop:Generator_ColumnPropNameInTable="Value1Column" msprop:Generator_UserColumnName="Value1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value2" msprop:Generator_ColumnVarNameInTable="columnValue2" msprop:Generator_ColumnPropNameInRow="Value2" msprop:Generator_ColumnPropNameInTable="Value2Column" msprop:Generator_UserColumnName="Value2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value3" msprop:Generator_ColumnVarNameInTable="columnValue3" msprop:Generator_ColumnPropNameInRow="Value3" msprop:Generator_ColumnPropNameInTable="Value3Column" msprop:Generator_UserColumnName="Value3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Uid" msprop:Generator_ColumnVarNameInTable="columnUid" msprop:Generator_ColumnPropNameInRow="Uid" msprop:Generator_ColumnPropNameInTable="UidColumn" msprop:Generator_UserColumnName="Uid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MotherName" msprop:Generator_ColumnVarNameInTable="columnMotherName" msprop:Generator_ColumnPropNameInRow="MotherName" msprop:Generator_ColumnPropNameInTable="MotherNameColumn" msprop:Generator_UserColumnName="MotherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="b_left" msprop:Generator_ColumnVarNameInTable="columnb_left" msprop:Generator_ColumnPropNameInRow="b_left" msprop:Generator_ColumnPropNameInTable="b_leftColumn" msprop:Generator_UserColumnName="b_left" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Left_time" msprop:Generator_ColumnVarNameInTable="columnLeft_time" msprop:Generator_ColumnPropNameInRow="Left_time" msprop:Generator_ColumnPropNameInTable="Left_timeColumn" msprop:Generator_UserColumnName="Left_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Left_hour" msprop:Generator_ColumnVarNameInTable="columnLeft_hour" msprop:Generator_ColumnPropNameInRow="Left_hour" msprop:Generator_ColumnPropNameInTable="Left_hourColumn" msprop:Generator_UserColumnName="Left_hour" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Left_min" msprop:Generator_ColumnVarNameInTable="columnLeft_min" msprop:Generator_ColumnPropNameInRow="Left_min" msprop:Generator_ColumnPropNameInTable="Left_minColumn" msprop:Generator_UserColumnName="Left_min" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sec_overtime" msprop:Generator_ColumnVarNameInTable="columnsec_overtime" msprop:Generator_ColumnPropNameInRow="sec_overtime" msprop:Generator_ColumnPropNameInTable="sec_overtimeColumn" msprop:Generator_UserColumnName="sec_overtime" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Last_time" msprop:Generator_ColumnVarNameInTable="columnLast_time" msprop:Generator_ColumnPropNameInRow="Last_time" msprop:Generator_ColumnPropNameInTable="Last_timeColumn" msprop:Generator_UserColumnName="Last_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="event_time" msprop:Generator_ColumnVarNameInTable="columnevent_time" msprop:Generator_ColumnPropNameInRow="event_time" msprop:Generator_ColumnPropNameInTable="event_timeColumn" msprop:Generator_UserColumnName="event_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="up_time" msprop:Generator_ColumnVarNameInTable="columnup_time" msprop:Generator_ColumnPropNameInRow="up_time" msprop:Generator_ColumnPropNameInTable="up_timeColumn" msprop:Generator_UserColumnName="up_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sec_upalt" msprop:Generator_ColumnVarNameInTable="columnsec_upalt" msprop:Generator_ColumnPropNameInRow="sec_upalt" msprop:Generator_ColumnPropNameInTable="sec_upaltColumn" msprop:Generator_UserColumnName="sec_upalt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="b_in_load" msprop:Generator_ColumnVarNameInTable="columnb_in_load" msprop:Generator_ColumnPropNameInRow="b_in_load" msprop:Generator_ColumnPropNameInTable="b_in_loadColumn" msprop:Generator_UserColumnName="b_in_load" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="b_in_unload" msprop:Generator_ColumnVarNameInTable="columnb_in_unload" msprop:Generator_ColumnPropNameInRow="b_in_unload" msprop:Generator_ColumnPropNameInTable="b_in_unloadColumn" msprop:Generator_UserColumnName="b_in_unload" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="b_in_warning" msprop:Generator_ColumnVarNameInTable="columnb_in_warning" msprop:Generator_ColumnPropNameInRow="b_in_warning" msprop:Generator_ColumnPropNameInTable="b_in_warningColumn" msprop:Generator_UserColumnName="b_in_warning" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Record_time" msprop:Generator_ColumnVarNameInTable="columnRecord_time" msprop:Generator_ColumnPropNameInRow="Record_time" msprop:Generator_ColumnPropNameInTable="Record_timeColumn" msprop:Generator_UserColumnName="Record_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RFID_remark" msprop:Generator_ColumnVarNameInTable="columnRFID_remark" msprop:Generator_ColumnPropNameInRow="RFID_remark" msprop:Generator_ColumnPropNameInTable="RFID_remarkColumn" msprop:Generator_UserColumnName="RFID_remark" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="s_tel" msprop:Generator_ColumnVarNameInTable="columns_tel" msprop:Generator_ColumnPropNameInRow="s_tel" msprop:Generator_ColumnPropNameInTable="s_telColumn" msprop:Generator_UserColumnName="s_tel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag_RoomId" msprop:Generator_ColumnVarNameInTable="columnTag_RoomId" msprop:Generator_ColumnPropNameInRow="Tag_RoomId" msprop:Generator_ColumnPropNameInTable="Tag_RoomIdColumn" msprop:Generator_UserColumnName="Tag_RoomId" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag_BedId" msprop:Generator_ColumnVarNameInTable="columnTag_BedId" msprop:Generator_ColumnPropNameInRow="Tag_BedId" msprop:Generator_ColumnPropNameInTable="Tag_BedIdColumn" msprop:Generator_UserColumnName="Tag_BedId" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SqlSendTime" msprop:Generator_ColumnVarNameInTable="columnSqlSendTime" msprop:Generator_ColumnPropNameInRow="SqlSendTime" msprop:Generator_ColumnPropNameInTable="SqlSendTimeColumn" msprop:Generator_UserColumnName="SqlSendTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HospitalName" msprop:Generator_ColumnVarNameInTable="columnHospitalName" msprop:Generator_ColumnPropNameInRow="HospitalName" msprop:Generator_ColumnPropNameInTable="HospitalNameColumn" msprop:Generator_UserColumnName="HospitalName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:THos1" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
