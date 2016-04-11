@@ -172,13 +172,6 @@ namespace Sjustmytestsql
 
         }
 
-        private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            if (e.Value is string)
-                e.Value = e.Value.ToString().Trim();
-        }
-
-
         /// <summary>  
         /// 获取局域网内的所有数据库服务器名称  
         /// </summary>  
@@ -374,6 +367,12 @@ namespace Sjustmytestsql
             {
             }
             comboBox1.SelectedIndex = comboBox1.Items.Count > 0 ? 0 : -1;
+        }
+
+        private void dataGridView1_CellFormatting_1(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (e.Value is string)
+                e.Value = e.Value.ToString().Trim();
         }
     }
 }

@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -38,11 +39,6 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.button4 = new System.Windows.Forms.Button();
-            this.tHos1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.qds114325507_dbDataSet = new Sjustmytestsql.qds114325507_dbDataSet();
-            this.tHos1TableAdapter = new Sjustmytestsql.qds114325507_dbDataSetTableAdapters.THos1TableAdapter();
             this.sqlSendTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bVoltLowDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bConnectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,6 +60,10 @@
             this.recordtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tagRoomIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tagBedIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tHos1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qds114325507_dbDataSet = new Sjustmytestsql.qds114325507_dbDataSet();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.tHos1TableAdapter = new Sjustmytestsql.qds114325507_dbDataSetTableAdapters.THos1TableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -71,9 +71,9 @@
             this.splitContainer1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tHos1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -88,6 +88,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1152, 54);
             this.panel1.TabIndex = 0;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(329, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(80, 30);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "获取名单";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // comboBox1
             // 
@@ -194,43 +204,7 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(1152, 232);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1152, 204);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(329, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(80, 30);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "获取名单";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // tHos1BindingSource
-            // 
-            this.tHos1BindingSource.DataMember = "THos1";
-            this.tHos1BindingSource.DataSource = this.qds114325507_dbDataSet;
-            // 
-            // qds114325507_dbDataSet
-            // 
-            this.qds114325507_dbDataSet.DataSetName = "qds114325507_dbDataSet";
-            this.qds114325507_dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tHos1TableAdapter
-            // 
-            this.tHos1TableAdapter.ClearBeforeFill = true;
+            this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting_1);
             // 
             // sqlSendTimeDataGridViewTextBoxColumn
             // 
@@ -400,6 +374,33 @@
             this.tagBedIdDataGridViewTextBoxColumn.ReadOnly = true;
             this.tagBedIdDataGridViewTextBoxColumn.Width = 84;
             // 
+            // tHos1BindingSource
+            // 
+            this.tHos1BindingSource.DataMember = "THos1";
+            this.tHos1BindingSource.DataSource = this.qds114325507_dbDataSet;
+            // 
+            // qds114325507_dbDataSet
+            // 
+            this.qds114325507_dbDataSet.DataSetName = "qds114325507_dbDataSet";
+            this.qds114325507_dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(1152, 204);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // tHos1TableAdapter
+            // 
+            this.tHos1TableAdapter.ClearBeforeFill = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -418,9 +419,9 @@
             this.splitContainer1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tHos1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }

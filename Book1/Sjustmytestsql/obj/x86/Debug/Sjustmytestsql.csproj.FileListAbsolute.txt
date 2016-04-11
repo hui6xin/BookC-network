@@ -6,3 +6,4 @@ C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmy
 C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmytestsql.csproj.GenerateResource.Cache
 C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\远程数据获取.exe
 C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\远程数据获取.pdb
+C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmytestsql.csprojResolveAssemblyReference.cache
