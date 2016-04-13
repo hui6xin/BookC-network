@@ -22,6 +22,7 @@ namespace Sjustmytestsql
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             sqlCnt.StateChange += new StateChangeEventHandler(sqlCnt_StateChange);
         }
 
@@ -163,8 +164,18 @@ namespace Sjustmytestsql
         private SqlDataAdapter dataAdapter = new SqlDataAdapter();
         private void button3_Click(object sender, EventArgs e)
         {
-            // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet.THos1”中。您可以根据需要移动或删除它。
-            this.tHos1TableAdapter.Fill(this.qds114325507_dbDataSet.THos1);
+           
+            try
+            {
+                // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet.THos1”中。您可以根据需要移动或删除它。
+                this.tHos1TableAdapter.Fill(this.qds114325507_dbDataSet.THos1);
+                // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet1.THosLog2”中。您可以根据需要移动或删除它。
+                this.tHosLog2TableAdapter.Fill(this.qds114325507_dbDataSet1.THosLog2);
+            }
+            catch(Exception ex)
+            {
+                Console.Write(ex.ToString());
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -340,7 +351,13 @@ namespace Sjustmytestsql
                 this.tHos1TableAdapter.Adapter.SelectCommand = new SqlCommand(sss);
                 this.tHos1TableAdapter.CommandCollection[0].CommandText = sss;
             }
-
+            string sss1 = "SELECT Id, log_type, Info_num, Info_value, Controler, log_logtime, log_infoclass, log_discribe, SqlSendTime,"
+                +"HospitalName FROM dbo.THosLog"+ shosindex[0];
+            if (this.tHosLog2TableAdapter.CommandCollection.Length > 0)
+            {
+                this.tHosLog2TableAdapter.Adapter.SelectCommand = new SqlCommand(sss1);
+                this.tHosLog2TableAdapter.CommandCollection[0].CommandText = sss1;
+            }
             
         }
 

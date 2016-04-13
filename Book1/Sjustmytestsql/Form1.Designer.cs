@@ -39,6 +39,8 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.HospitalName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sqlSendTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bVoltLowDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bConnectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,8 +64,20 @@
             this.tagBedIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tHos1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.qds114325507_dbDataSet = new Sjustmytestsql.qds114325507_dbDataSet();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tHos1TableAdapter = new Sjustmytestsql.qds114325507_dbDataSetTableAdapters.THos1TableAdapter();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.logtypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.infonumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.infovalueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.controlerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loglogtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loginfoclassDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.logdiscribeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sqlSendTimeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hospitalNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tHosLog2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qds114325507_dbDataSet1 = new Sjustmytestsql.qds114325507_dbDataSet1();
+            this.tHosLog2TableAdapter = new Sjustmytestsql.qds114325507_dbDataSet1TableAdapters.THosLog2TableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -71,9 +85,11 @@
             this.splitContainer1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tHos1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tHosLog2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -176,6 +192,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.sqlSendTimeDataGridViewTextBoxColumn,
+            this.HospitalName,
             this.bVoltLowDataGridViewTextBoxColumn,
             this.bConnectDataGridViewTextBoxColumn,
             this.readerIDDataGridViewTextBoxColumn,
@@ -205,6 +222,42 @@
             this.dataGridView1.Size = new System.Drawing.Size(1152, 232);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting_1);
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.logtypeDataGridViewTextBoxColumn,
+            this.infonumDataGridViewTextBoxColumn,
+            this.infovalueDataGridViewTextBoxColumn,
+            this.controlerDataGridViewTextBoxColumn,
+            this.loglogtimeDataGridViewTextBoxColumn,
+            this.loginfoclassDataGridViewTextBoxColumn,
+            this.logdiscribeDataGridViewTextBoxColumn,
+            this.sqlSendTimeDataGridViewTextBoxColumn1,
+            this.hospitalNameDataGridViewTextBoxColumn});
+            this.dataGridView2.DataSource = this.tHosLog2BindingSource;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(1152, 204);
+            this.dataGridView2.TabIndex = 0;
+            this.dataGridView2.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting_1);
+            // 
+            // HospitalName
+            // 
+            this.HospitalName.DataPropertyName = "HospitalName";
+            this.HospitalName.HeaderText = "HospitalName";
+            this.HospitalName.Name = "HospitalName";
+            this.HospitalName.ReadOnly = true;
+            this.HospitalName.Width = 102;
             // 
             // sqlSendTimeDataGridViewTextBoxColumn
             // 
@@ -384,22 +437,103 @@
             this.qds114325507_dbDataSet.DataSetName = "qds114325507_dbDataSet";
             this.qds114325507_dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1152, 204);
-            this.dataGridView2.TabIndex = 0;
-            // 
             // tHos1TableAdapter
             // 
             this.tHos1TableAdapter.ClearBeforeFill = true;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.Width = 42;
+            // 
+            // logtypeDataGridViewTextBoxColumn
+            // 
+            this.logtypeDataGridViewTextBoxColumn.DataPropertyName = "log_type";
+            this.logtypeDataGridViewTextBoxColumn.HeaderText = "log_type";
+            this.logtypeDataGridViewTextBoxColumn.Name = "logtypeDataGridViewTextBoxColumn";
+            this.logtypeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.logtypeDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // infonumDataGridViewTextBoxColumn
+            // 
+            this.infonumDataGridViewTextBoxColumn.DataPropertyName = "Info_num";
+            this.infonumDataGridViewTextBoxColumn.HeaderText = "Info_num";
+            this.infonumDataGridViewTextBoxColumn.Name = "infonumDataGridViewTextBoxColumn";
+            this.infonumDataGridViewTextBoxColumn.ReadOnly = true;
+            this.infonumDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // infovalueDataGridViewTextBoxColumn
+            // 
+            this.infovalueDataGridViewTextBoxColumn.DataPropertyName = "Info_value";
+            this.infovalueDataGridViewTextBoxColumn.HeaderText = "Info_value";
+            this.infovalueDataGridViewTextBoxColumn.Name = "infovalueDataGridViewTextBoxColumn";
+            this.infovalueDataGridViewTextBoxColumn.ReadOnly = true;
+            this.infovalueDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // controlerDataGridViewTextBoxColumn
+            // 
+            this.controlerDataGridViewTextBoxColumn.DataPropertyName = "Controler";
+            this.controlerDataGridViewTextBoxColumn.HeaderText = "Controler";
+            this.controlerDataGridViewTextBoxColumn.Name = "controlerDataGridViewTextBoxColumn";
+            this.controlerDataGridViewTextBoxColumn.ReadOnly = true;
+            this.controlerDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // loglogtimeDataGridViewTextBoxColumn
+            // 
+            this.loglogtimeDataGridViewTextBoxColumn.DataPropertyName = "log_logtime";
+            this.loglogtimeDataGridViewTextBoxColumn.HeaderText = "log_logtime";
+            this.loglogtimeDataGridViewTextBoxColumn.Name = "loglogtimeDataGridViewTextBoxColumn";
+            this.loglogtimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.loglogtimeDataGridViewTextBoxColumn.Width = 96;
+            // 
+            // loginfoclassDataGridViewTextBoxColumn
+            // 
+            this.loginfoclassDataGridViewTextBoxColumn.DataPropertyName = "log_infoclass";
+            this.loginfoclassDataGridViewTextBoxColumn.HeaderText = "log_infoclass";
+            this.loginfoclassDataGridViewTextBoxColumn.Name = "loginfoclassDataGridViewTextBoxColumn";
+            this.loginfoclassDataGridViewTextBoxColumn.ReadOnly = true;
+            this.loginfoclassDataGridViewTextBoxColumn.Width = 108;
+            // 
+            // logdiscribeDataGridViewTextBoxColumn
+            // 
+            this.logdiscribeDataGridViewTextBoxColumn.DataPropertyName = "log_discribe";
+            this.logdiscribeDataGridViewTextBoxColumn.HeaderText = "log_discribe";
+            this.logdiscribeDataGridViewTextBoxColumn.Name = "logdiscribeDataGridViewTextBoxColumn";
+            this.logdiscribeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.logdiscribeDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // sqlSendTimeDataGridViewTextBoxColumn1
+            // 
+            this.sqlSendTimeDataGridViewTextBoxColumn1.DataPropertyName = "SqlSendTime";
+            this.sqlSendTimeDataGridViewTextBoxColumn1.HeaderText = "SqlSendTime";
+            this.sqlSendTimeDataGridViewTextBoxColumn1.Name = "sqlSendTimeDataGridViewTextBoxColumn1";
+            this.sqlSendTimeDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.sqlSendTimeDataGridViewTextBoxColumn1.Width = 96;
+            // 
+            // hospitalNameDataGridViewTextBoxColumn
+            // 
+            this.hospitalNameDataGridViewTextBoxColumn.DataPropertyName = "HospitalName";
+            this.hospitalNameDataGridViewTextBoxColumn.HeaderText = "HospitalName";
+            this.hospitalNameDataGridViewTextBoxColumn.Name = "hospitalNameDataGridViewTextBoxColumn";
+            this.hospitalNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.hospitalNameDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // tHosLog2BindingSource
+            // 
+            this.tHosLog2BindingSource.DataMember = "THosLog2";
+            this.tHosLog2BindingSource.DataSource = this.qds114325507_dbDataSet1;
+            // 
+            // qds114325507_dbDataSet1
+            // 
+            this.qds114325507_dbDataSet1.DataSetName = "qds114325507_dbDataSet1";
+            this.qds114325507_dbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tHosLog2TableAdapter
+            // 
+            this.tHosLog2TableAdapter.ClearBeforeFill = true;
             // 
             // Form1
             // 
@@ -419,9 +553,11 @@
             this.splitContainer1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tHos1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tHosLog2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -442,6 +578,7 @@
         private System.Windows.Forms.BindingSource tHos1BindingSource;
         private qds114325507_dbDataSetTableAdapters.THos1TableAdapter tHos1TableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn sqlSendTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HospitalName;
         private System.Windows.Forms.DataGridViewTextBoxColumn bVoltLowDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn bConnectDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn readerIDDataGridViewTextBoxColumn;
@@ -462,5 +599,18 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn recordtimeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tagRoomIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tagBedIdDataGridViewTextBoxColumn;
+        private qds114325507_dbDataSet1 qds114325507_dbDataSet1;
+        private System.Windows.Forms.BindingSource tHosLog2BindingSource;
+        private qds114325507_dbDataSet1TableAdapters.THosLog2TableAdapter tHosLog2TableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn logtypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn infonumDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn infovalueDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn controlerDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loglogtimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loginfoclassDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn logdiscribeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sqlSendTimeDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hospitalNameDataGridViewTextBoxColumn;
     }
 }
