@@ -46,17 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientServer.cs" />
+    <Compile Include="DotColor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRoom.Designer.cs">
+      <DependentUpon>FormRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormServer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormServer.Designer.cs">
       <DependentUpon>FormServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameClient.Designer.cs">
+      <DependentUpon>GameClient.cs</DependentUpon>
     </Compile>
     <Compile Include="GameTable.cs" />
     <Compile Include="GoUser.cs" />

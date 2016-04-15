@@ -30,5 +30,11 @@ namespace WindowsForms5
             
         }
         Func<int, int, int> Add = (x, y) => x + y;
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormServer fs = new FormServer();
+            fs.Show();
+        }
     }
 }

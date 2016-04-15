@@ -34,7 +34,7 @@ namespace WindowsForms5
         {
             for (int i = 0; i <= grid.GetUpperBound(0); i++)
             {
-                for (int j = 0; j <= grid.GetUpperBound(1); i++)
+                for (int j = 0; j <= grid.GetUpperBound(1); j++)
                 {
                     grid[i, j] = None;
                 }
