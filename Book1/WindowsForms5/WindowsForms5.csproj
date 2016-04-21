@@ -46,13 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientServer.cs" />
+    <Compile Include="ClientService.cs" />
     <Compile Include="DotColor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlaying.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlaying.Designer.cs">
+      <DependentUpon>FormPlaying.cs</DependentUpon>
     </Compile>
     <Compile Include="FormRoom.cs">
       <SubType>Form</SubType>
@@ -65,12 +71,6 @@
     </Compile>
     <Compile Include="FormServer.Designer.cs">
       <DependentUpon>FormServer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GameClient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GameClient.Designer.cs">
-      <DependentUpon>GameClient.cs</DependentUpon>
     </Compile>
     <Compile Include="GameTable.cs" />
     <Compile Include="GoUser.cs" />
@@ -93,6 +93,9 @@
     <Compile Include="User.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlaying.resx">
+      <DependentUpon>FormPlaying.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormServer.resx">
       <DependentUpon>FormServer.cs</DependentUpon>
