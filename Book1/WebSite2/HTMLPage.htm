@@ -3,12 +3,98 @@
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <meta http-equiv="Content-Language" content="zh-cn" />
     <link rel="Stylesheet" type="text/css" href="http://www.w3school.com.cn/html/csstest1.css" />
+<<<<<<< HEAD
 <style type="text/css">
     h1 {color:Red}
     p {color:Blue}
 </style>
 </head>
 <body bgcolor="gray" background="//http://picm.photophoto.cn/005/008/009/0080090125.jpg">
+=======
+    <script language="javascript" src="Scripts/jquery-1.4.1.js"></script>
+    <script language="javascript" src="Scripts/jquery-1.4.1-vsdoc.js"></script>
+<style type="text/css">
+    h1 {color:Red}
+    p {color:Blue}
+    div  
+    {  
+        width: 160px;  
+        border: solid 1px #ccc;  
+        padding:8px;  
+        text-align:center;  
+    }  
+    .orange  
+    {  
+        background-color: Orange;  
+        color:White;  
+    }  
+</style>
+</head>
+ 
+<body bgcolor="gray" background="//http://picm.photophoto.cn/005/008/009/0080090125.jpg">
+
+ <h3>页面载入时触发ready()事件 http://blog.csdn.net/yeyang123_fy/article/details/47085353</h3>  
+        <div id="tip"></div>  
+        <input id="btntest" type="button" value="点下我" />  
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#btntest").bind("click", function () {
+                    $("#tip").html("我被点击了！");
+                });
+            });  
+        </script>  
+
+        <h3>bind()方法绑多个事件</h3>  
+       <input id="Button1" type="button" value="点击或移出就不可用了" />  
+       <script type="text/javascript">
+           $(function () {
+               $("#Button1").bind("click", function () {
+                   $(this).attr("disabled", "true");
+               })
+           });  
+       </script>  
+        <h3>hover()方法切换事件</h3>  
+       <div>别走！你就是土豪</div>  
+       <script type="text/javascript">
+           $(function () {
+               $("div").hover(
+               function () {
+                   $(this).addClass("orange");
+               },
+               function () {
+                   $(this).removeClass("orange")
+               })
+           });  
+       </script>  
+       <h3>toggle()方法绑定多个函数</h3>  
+        <input id="Button2" type="button" value="点一下我" />  
+        <div>我是动态显示的</div>  
+          
+        <script type="text/javascript">
+            $(function () {
+                $("#Button2").bind("click", function () {
+                    $("div").toggle()
+                })
+            });  
+        </script>  
+        <h3>unbind()移除绑定的事件</h3>  
+       <input id="Button3" type="button" value="移除事件" />  
+       <div>土豪，咱们交个朋友吧</div>  
+       <script type="text/javascript">
+           $(function () {
+               $("div").bind("click",
+               function () {
+                   $(this).removeClass("backcolor").addClass("color");
+               }).bind("dblclick", function () {
+                   $(this).removeClass("color").addClass("backcolor");
+               })
+               $("#Button3").bind("click", function () {
+                   $("div").unbind();
+                   $(this).attr("disabled", "true");
+               });
+           });  
+       </script>  
+>>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
 <h1 align="center">biaoti</h1>
 <a href="http://www.w3school.com.cn/tags/index.asp" name="alltip">html所有属性</a>
 <h2>biaoti h2-h6</h2>
@@ -167,7 +253,11 @@ alt="Sun" />
 <p>请把鼠标移动到图像上，看一下状态栏的坐标如何变化。</p>
 
 <a href="/example/html/html_ismap.html">
+<<<<<<< HEAD
 <img src ="http://picm.photophoto.cn/005/008/009/0080090125.jpg" ismap width=200 height=200 />
+=======
+<img src ="http://picm.photophoto.cn/005/008/009/0080090125.jpg" ismap width=200 height=200  />
+>>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
 </a>
 <table border="1">
 <tr>
