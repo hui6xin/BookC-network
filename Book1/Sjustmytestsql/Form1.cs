@@ -10,6 +10,7 @@ using System.Data.SqlClient;
 using System.Data.Sql;
 using System.Data.SqlTypes;
 using System.Reflection;
+using System.Data.OleDb;
 
 
 namespace Sjustmytestsql
@@ -327,6 +328,74 @@ namespace Sjustmytestsql
             objConnetion.Close();
             return Columnlist;
         }
+
+        /// <summary>  
+        /// 返回Mdb<a href="http://lib.csdn.net/base/14" class='replace_word' title="MySQL知识库" target='_blank' style='color:#df3434; font-weight:bold;'>数据库</a>中所有表表名  
+        /// </summary>  
+        public string[] GetShemaTableName(string database_path, string database_password)
+        {
+            OleDbConnection conn = new OleDbConnection();
+            try
+            {
+                //获取数据表  
+              
+                conn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:DataBase Password='" + database_password + "Data Source=" + database_path;
+                conn.Open();
+                DataTable shemaTable = conn.GetOleDbSchemaTable(OleDbSchemaGuid.Tables, new object[] { null, null, null, "TABLE" });
+                int n = shemaTable.Rows.Count;
+                string[] strTable = new string[n];
+                int m = shemaTable.Columns.IndexOf("TABLE_NAME");
+                for (int i = 0; i < n; i++)
+                {
+                    DataRow m_DataRow = shemaTable.Rows[i];
+                    strTable[i] = m_DataRow.ItemArray.GetValue(m).ToString();
+                }
+                return strTable;
+            }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show("指定的限制集无效:/n" + ex.Message);
+                return null;
+            }
+            finally
+            {
+                conn.Close();
+                conn.Dispose();
+            }
+        }
+        /// <summary>  
+        /// 返回某一表的所有字段名  
+        /// </summary>  
+        public string[] GetTableColumn(string database_path, string varTableName)
+        {
+            OleDbConnection conn = new OleDbConnection();
+            DataTable dt = new DataTable();
+            try
+            {
+                conn = new OleDbConnection();
+                conn.ConnectionString = "Provider = Microsoft.Jet.OleDb.4.0;Data Source=" + database_path;
+                conn.Open();
+                dt = conn.GetOleDbSchemaTable(OleDbSchemaGuid.Columns, new object[] { null, null, varTableName, null });
+                int n = dt.Rows.Count;
+                string[] strTable = new string[n];
+                int m = dt.Columns.IndexOf("COLUMN_NAME");
+                for (int i = 0; i < n; i++)
+                {
+                    DataRow m_DataRow = dt.Rows[i];
+                    strTable[i] = m_DataRow.ItemArray.GetValue(m).ToString();
+                }
+                return strTable;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }  
+
 
         private void comboBox1_Click(object sender, EventArgs e)
         {
