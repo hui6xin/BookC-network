@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-Book1/book1/bin/Debug/book1.exe
-Book1/book1/obj/x86/Debug/book1.exe
-=======
+
 #ALL debug Dec
 **/bin/
 **/obj/
@@ -54,4 +51,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04

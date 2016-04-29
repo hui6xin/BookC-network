@@ -23,7 +23,6 @@ namespace Sjustmytestsql
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
             sqlCnt.StateChange += new StateChangeEventHandler(sqlCnt_StateChange);
         }
 
@@ -168,10 +167,23 @@ namespace Sjustmytestsql
            
             try
             {
-                // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet.THos1”中。您可以根据需要移动或删除它。
-                this.tHos1TableAdapter.Fill(this.qds114325507_dbDataSet.THos1);
-                // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet1.THosLog2”中。您可以根据需要移动或删除它。
-                this.tHosLog2TableAdapter.Fill(this.qds114325507_dbDataSet1.THosLog2);
+                switch(int.Parse((string)tabControl1.SelectedTab.Tag) ) 
+                {
+                    case 1:
+                        // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet.THos1”中。您可以根据需要移动或删除它。
+                        this.tHos1TableAdapter.Fill(this.qds114325507_dbDataSet.THos1);
+                        break;
+                    case 2:
+                        // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet1.THosLog2”中。您可以根据需要移动或删除它。
+                        this.tHosLog2TableAdapter.Fill(this.qds114325507_dbDataSet1.THosLog2);
+                        break;
+                    case 3:
+                        // TODO: 这行代码将数据加载到表“qds114325507_dbDataSet2.THosUserRec1”中。您可以根据需要移动或删除它。
+                        this.tHosUserRec1TableAdapter.Fill(this.qds114325507_dbDataSet2.THosUserRec1);
+                        break;
+                }
+
+               
             }
             catch(Exception ex)
             {
@@ -426,6 +438,12 @@ namespace Sjustmytestsql
             {
                 this.tHosLog2TableAdapter.Adapter.SelectCommand = new SqlCommand(sss1);
                 this.tHosLog2TableAdapter.CommandCollection[0].CommandText = sss1;
+            }
+            string sss2 = " SELECT Id, Tag_ID, Record_time, LogOff_time, SqlSendTime, HospitalName FROM dbo.THosUserRec" + shosindex[0];
+            if (this.tHosUserRec1TableAdapter.CommandCollection.Length > 0)
+            {
+                this.tHosUserRec1TableAdapter.Adapter.SelectCommand = new SqlCommand(sss2);
+                this.tHosUserRec1TableAdapter.CommandCollection[0].CommandText = sss2;
             }
             
         }

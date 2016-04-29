@@ -87,10 +87,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "start";
             this.button1.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
-=======
             this.button1.Click += new System.EventHandler(this.button1_Click);
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
             // 
             // button2
             // 
@@ -100,10 +97,9 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "stop";
             this.button2.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
-=======
+
             this.button2.Click += new System.EventHandler(this.button2_Click);
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
+
             // 
             // FormServer
             // 
@@ -119,11 +115,8 @@
             this.Controls.Add(this.listBox1);
             this.Name = "FormServer";
             this.Text = "FormServer";
-<<<<<<< HEAD
-=======
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormServer_FormClosing);
             this.Load += new System.EventHandler(this.FormServer_Load);
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
             this.ResumeLayout(false);
             this.PerformLayout();
 

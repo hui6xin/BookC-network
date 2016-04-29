@@ -6,26 +6,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-<<<<<<< HEAD
-=======
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Threading;
 using System.Security.Cryptography;
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
 
 namespace WindowsForms5
 {
     public partial class FormServer : Form
-    {
-<<<<<<< HEAD
-        public FormServer()
-        {
-            InitializeComponent();
-        }
-=======
-        
+    {    
         private int maxUsers;
         System.Collections.Generic.List<GoUser> userlist = new List<GoUser>();
         private int maxTables;
@@ -325,7 +315,5 @@ namespace WindowsForms5
                 button2_Click(null, null);
             }
         }
-
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
     }
 }

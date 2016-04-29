@@ -40,8 +40,8 @@ namespace WindowsForms5
             InitializeComponent();
             this.tableIndex = TableIndex;
             this.side = Side;
-            labelDelegate = new LabelDelegate(SetLabel);
-            buttonDelegate = new ButtonDelegate(SetButton);
+            //labelDelegate = new LabelDelegate(SetLabel);
+            //buttonDelegate = new ButtonDelegate(SetButton);
         }
         
     }

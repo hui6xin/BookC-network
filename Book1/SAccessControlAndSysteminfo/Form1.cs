@@ -15,7 +15,7 @@ namespace SAccessControlAndSysteminfo
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
+
     //    //给Excel文件添加"Everyone,Users"用户组的完全控制权限  
     //    FileInfo fi = new FileInfo(excelPath);  
     //    System.Security.AccessControl.FileSecurity fileSecurity = fi.GetAccessControl();  
@@ -63,7 +63,7 @@ namespace SAccessControlAndSysteminfo
          //       //退出  
          //       System.Windows.Forms.Application.Exit();  
          //   }  
-=======
+
         //    //给Excel文件添加"Everyone,Users"用户组的完全控制权限  
         //    FileInfo fi = new FileInfo(excelPath);  
         //    System.Security.AccessControl.FileSecurity fileSecurity = fi.GetAccessControl();  
@@ -112,5 +112,5 @@ namespace SAccessControlAndSysteminfo
         //       System.Windows.Forms.Application.Exit();  
         //   }  
     }
->>>>>>> 3cb139b011e1d42bc11f9a9bd670b0c43d25fd04
+
 }
