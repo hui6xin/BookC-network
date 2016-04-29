@@ -1,9 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmytestsql.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmytestsql.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmytestsql.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\Sjustmytestsql.csprojResolveAssemblyReference.cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\bin\Debug\远程数据获取1.1.exe.config
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\bin\Debug\远程数据获取1.1.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\bin\Debug\远程数据获取1.1.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\远程数据获取1.1.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\Sjustmytestsql\obj\x86\Debug\远程数据获取1.1.pdb

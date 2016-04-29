@@ -1,6 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\DrawingRoundStlye\bin\Debug\DrawingRoundStlye.dll
-C:\Users\lenovo\Desktop\BookC-network\Book1\DrawingRoundStlye\bin\Debug\DrawingRoundStlye.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\DrawingRoundStlye\obj\Debug\DrawingRoundStlye.UserControl1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\DrawingRoundStlye\obj\Debug\DrawingRoundStlye.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\DrawingRoundStlye\obj\Debug\DrawingRoundStlye.dll
-C:\Users\lenovo\Desktop\BookC-network\Book1\DrawingRoundStlye\obj\Debug\DrawingRoundStlye.pdb

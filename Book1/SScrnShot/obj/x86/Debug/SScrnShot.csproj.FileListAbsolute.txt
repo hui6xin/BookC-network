@@ -1,7 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\bin\Debug\SScrnShot.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\bin\Debug\SScrnShot.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\obj\x86\Debug\SScrnShot.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\obj\x86\Debug\SScrnShot.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\obj\x86\Debug\SScrnShot.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\obj\x86\Debug\SScrnShot.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\SScrnShot\obj\x86\Debug\SScrnShot.pdb

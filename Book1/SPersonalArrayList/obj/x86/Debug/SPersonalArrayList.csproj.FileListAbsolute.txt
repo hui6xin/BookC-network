@@ -1,7 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\bin\Debug\SPersonalArrayList.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\bin\Debug\SPersonalArrayList.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\obj\x86\Debug\SPersonalArrayList.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\obj\x86\Debug\SPersonalArrayList.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\obj\x86\Debug\SPersonalArrayList.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\obj\x86\Debug\SPersonalArrayList.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\SPersonalArrayList\obj\x86\Debug\SPersonalArrayList.pdb

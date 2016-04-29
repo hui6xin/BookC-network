@@ -1,7 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\bin\Debug\WindowsForms2.4.3.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\bin\Debug\WindowsForms2.4.3.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\obj\x86\Debug\WindowsForms2._4._3.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\obj\x86\Debug\WindowsForms2._4._3.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\obj\x86\Debug\WindowsForms2.4.3Lock语句.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\obj\x86\Debug\WindowsForms2.4.3.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms2.4.3\obj\x86\Debug\WindowsForms2.4.3.pdb

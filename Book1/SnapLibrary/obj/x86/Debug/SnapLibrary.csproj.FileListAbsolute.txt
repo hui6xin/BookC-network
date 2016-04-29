@@ -1,6 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\SnapLibrary\bin\Debug\SnapLibrary.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\SnapLibrary\bin\Debug\SnapLibrary.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\SnapLibrary\obj\x86\Debug\SnapLibrary.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\SnapLibrary\obj\x86\Debug\SnapLibrary.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\SnapLibrary\obj\x86\Debug\SnapLibrary.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\SnapLibrary\obj\x86\Debug\SnapLibrary.pdb

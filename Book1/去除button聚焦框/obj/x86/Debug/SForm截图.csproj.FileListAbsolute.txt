@@ -1,7 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\bin\Debug\RemoveButtonFocusCues.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\bin\Debug\RemoveButtonFocusCues.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\obj\x86\Debug\RemoveButtonFocusCues.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\obj\x86\Debug\RemoveButtonFocusCues.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\obj\x86\Debug\SForm截图.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\obj\x86\Debug\RemoveButtonFocusCues.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\去除button聚焦框\obj\x86\Debug\RemoveButtonFocusCues.pdb

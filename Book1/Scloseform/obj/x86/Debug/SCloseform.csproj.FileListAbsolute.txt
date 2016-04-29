@@ -1,8 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\bin\Debug\Scloseform.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\bin\Debug\Scloseform.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\obj\x86\Debug\Scloseform.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\obj\x86\Debug\Scloseform.Form2.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\obj\x86\Debug\Scloseform.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\obj\x86\Debug\SCloseform.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\obj\x86\Debug\Scloseform.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\Scloseform\obj\x86\Debug\Scloseform.pdb

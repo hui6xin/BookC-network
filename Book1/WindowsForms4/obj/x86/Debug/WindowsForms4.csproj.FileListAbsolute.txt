@@ -1,7 +1,0 @@
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\bin\Debug\WindowsForms4.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\bin\Debug\WindowsForms4.pdb
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\obj\x86\Debug\WindowsForms4.Form1.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\obj\x86\Debug\WindowsForms4.Properties.Resources.resources
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\obj\x86\Debug\WindowsForms4.csproj.GenerateResource.Cache
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\obj\x86\Debug\WindowsForms4.exe
-C:\Users\lenovo\Desktop\BookC-network\Book1\WindowsForms4\obj\x86\Debug\WindowsForms4.pdb
