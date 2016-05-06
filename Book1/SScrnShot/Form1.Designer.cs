@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.flashToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.delay5sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmi_exit = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_CutImage = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
@@ -63,11 +63,6 @@
             this.tsmi_exit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(125, 164);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(121, 6);
             // 
             // menuToolStripMenuItem
             // 
@@ -105,6 +100,11 @@
             this.settingToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.settingToolStripMenuItem.Text = "setting";
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(121, 6);
+            // 
             // tsmi_exit
             // 
             this.tsmi_exit.Name = "tsmi_exit";
@@ -115,7 +115,7 @@
             // lbl_CutImage
             // 
             this.lbl_CutImage.AutoSize = true;
-            this.lbl_CutImage.Location = new System.Drawing.Point(158, 196);
+            this.lbl_CutImage.Location = new System.Drawing.Point(97, 109);
             this.lbl_CutImage.Name = "lbl_CutImage";
             this.lbl_CutImage.Size = new System.Drawing.Size(41, 12);
             this.lbl_CutImage.TabIndex = 1;

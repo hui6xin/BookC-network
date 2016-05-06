@@ -53,43 +53,43 @@
             this.qds114325507_dbDataSet2 = new Sjustmytestsql.qds114325507_dbDataSet2();
             this.tHosUserRec1TableAdapter = new Sjustmytestsql.qds114325507_dbDataSet2TableAdapters.THosUserRec1TableAdapter();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.hospitalNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sqlSendTimeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.logdiscribeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loginfoclassDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loglogtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.controlerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.infovalueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.infonumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.logtypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tagBedIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tagRoomIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.recordtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.binwarningDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.binloadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.eventtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.leftminDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lefthourDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lefttimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bleftDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.uidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.value3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.value2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.value1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tagIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.readtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.readerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bConnectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bVoltLowDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HospitalName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sqlSendTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HospitalName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bVoltLowDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bConnectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.readerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.readtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tagIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.value1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.value2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.value3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.uidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bleftDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lefttimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lefthourDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.leftminDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.eventtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.binloadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.binwarningDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.recordtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tagRoomIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tagBedIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.logtypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.infonumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.infovalueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.controlerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loglogtimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loginfoclassDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.logdiscribeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sqlSendTimeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hospitalNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tHos1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet)).BeginInit();
@@ -99,11 +99,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.tHosUserRec1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet2)).BeginInit();
             this.tabControl1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -290,138 +290,6 @@
             this.tabControl1.TabIndex = 3;
             this.tabControl1.Tag = "1";
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1169, 451);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Tag = "3";
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.dataGridView2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1169, 451);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Tag = "2";
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.logtypeDataGridViewTextBoxColumn,
-            this.infonumDataGridViewTextBoxColumn,
-            this.infovalueDataGridViewTextBoxColumn,
-            this.controlerDataGridViewTextBoxColumn,
-            this.loglogtimeDataGridViewTextBoxColumn,
-            this.loginfoclassDataGridViewTextBoxColumn,
-            this.logdiscribeDataGridViewTextBoxColumn,
-            this.sqlSendTimeDataGridViewTextBoxColumn1,
-            this.hospitalNameDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.tHosLog2BindingSource;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(1163, 445);
-            this.dataGridView2.TabIndex = 0;
-            this.dataGridView2.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting_1);
-            // 
-            // hospitalNameDataGridViewTextBoxColumn
-            // 
-            this.hospitalNameDataGridViewTextBoxColumn.DataPropertyName = "HospitalName";
-            this.hospitalNameDataGridViewTextBoxColumn.HeaderText = "HospitalName";
-            this.hospitalNameDataGridViewTextBoxColumn.Name = "hospitalNameDataGridViewTextBoxColumn";
-            this.hospitalNameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.hospitalNameDataGridViewTextBoxColumn.Width = 102;
-            // 
-            // sqlSendTimeDataGridViewTextBoxColumn1
-            // 
-            this.sqlSendTimeDataGridViewTextBoxColumn1.DataPropertyName = "SqlSendTime";
-            this.sqlSendTimeDataGridViewTextBoxColumn1.HeaderText = "SqlSendTime";
-            this.sqlSendTimeDataGridViewTextBoxColumn1.Name = "sqlSendTimeDataGridViewTextBoxColumn1";
-            this.sqlSendTimeDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.sqlSendTimeDataGridViewTextBoxColumn1.Width = 96;
-            // 
-            // logdiscribeDataGridViewTextBoxColumn
-            // 
-            this.logdiscribeDataGridViewTextBoxColumn.DataPropertyName = "log_discribe";
-            this.logdiscribeDataGridViewTextBoxColumn.HeaderText = "log_discribe";
-            this.logdiscribeDataGridViewTextBoxColumn.Name = "logdiscribeDataGridViewTextBoxColumn";
-            this.logdiscribeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.logdiscribeDataGridViewTextBoxColumn.Width = 102;
-            // 
-            // loginfoclassDataGridViewTextBoxColumn
-            // 
-            this.loginfoclassDataGridViewTextBoxColumn.DataPropertyName = "log_infoclass";
-            this.loginfoclassDataGridViewTextBoxColumn.HeaderText = "log_infoclass";
-            this.loginfoclassDataGridViewTextBoxColumn.Name = "loginfoclassDataGridViewTextBoxColumn";
-            this.loginfoclassDataGridViewTextBoxColumn.ReadOnly = true;
-            this.loginfoclassDataGridViewTextBoxColumn.Width = 108;
-            // 
-            // loglogtimeDataGridViewTextBoxColumn
-            // 
-            this.loglogtimeDataGridViewTextBoxColumn.DataPropertyName = "log_logtime";
-            this.loglogtimeDataGridViewTextBoxColumn.HeaderText = "log_logtime";
-            this.loglogtimeDataGridViewTextBoxColumn.Name = "loglogtimeDataGridViewTextBoxColumn";
-            this.loglogtimeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.loglogtimeDataGridViewTextBoxColumn.Width = 96;
-            // 
-            // controlerDataGridViewTextBoxColumn
-            // 
-            this.controlerDataGridViewTextBoxColumn.DataPropertyName = "Controler";
-            this.controlerDataGridViewTextBoxColumn.HeaderText = "Controler";
-            this.controlerDataGridViewTextBoxColumn.Name = "controlerDataGridViewTextBoxColumn";
-            this.controlerDataGridViewTextBoxColumn.ReadOnly = true;
-            this.controlerDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // infovalueDataGridViewTextBoxColumn
-            // 
-            this.infovalueDataGridViewTextBoxColumn.DataPropertyName = "Info_value";
-            this.infovalueDataGridViewTextBoxColumn.HeaderText = "Info_value";
-            this.infovalueDataGridViewTextBoxColumn.Name = "infovalueDataGridViewTextBoxColumn";
-            this.infovalueDataGridViewTextBoxColumn.ReadOnly = true;
-            this.infovalueDataGridViewTextBoxColumn.Width = 90;
-            // 
-            // infonumDataGridViewTextBoxColumn
-            // 
-            this.infonumDataGridViewTextBoxColumn.DataPropertyName = "Info_num";
-            this.infonumDataGridViewTextBoxColumn.HeaderText = "Info_num";
-            this.infonumDataGridViewTextBoxColumn.Name = "infonumDataGridViewTextBoxColumn";
-            this.infonumDataGridViewTextBoxColumn.ReadOnly = true;
-            this.infonumDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // logtypeDataGridViewTextBoxColumn
-            // 
-            this.logtypeDataGridViewTextBoxColumn.DataPropertyName = "log_type";
-            this.logtypeDataGridViewTextBoxColumn.HeaderText = "log_type";
-            this.logtypeDataGridViewTextBoxColumn.Name = "logtypeDataGridViewTextBoxColumn";
-            this.logtypeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.logtypeDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn.Width = 42;
-            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dataGridView1);
@@ -431,7 +299,7 @@
             this.tabPage1.Size = new System.Drawing.Size(1169, 451);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Tag = "1";
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "标签";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
@@ -474,165 +342,13 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting_1);
             // 
-            // tagBedIdDataGridViewTextBoxColumn
+            // sqlSendTimeDataGridViewTextBoxColumn
             // 
-            this.tagBedIdDataGridViewTextBoxColumn.DataPropertyName = "Tag_BedId";
-            this.tagBedIdDataGridViewTextBoxColumn.HeaderText = "Tag_BedId";
-            this.tagBedIdDataGridViewTextBoxColumn.Name = "tagBedIdDataGridViewTextBoxColumn";
-            this.tagBedIdDataGridViewTextBoxColumn.ReadOnly = true;
-            this.tagBedIdDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // tagRoomIdDataGridViewTextBoxColumn
-            // 
-            this.tagRoomIdDataGridViewTextBoxColumn.DataPropertyName = "Tag_RoomId";
-            this.tagRoomIdDataGridViewTextBoxColumn.HeaderText = "Tag_RoomId";
-            this.tagRoomIdDataGridViewTextBoxColumn.Name = "tagRoomIdDataGridViewTextBoxColumn";
-            this.tagRoomIdDataGridViewTextBoxColumn.ReadOnly = true;
-            this.tagRoomIdDataGridViewTextBoxColumn.Width = 90;
-            // 
-            // recordtimeDataGridViewTextBoxColumn
-            // 
-            this.recordtimeDataGridViewTextBoxColumn.DataPropertyName = "Record_time";
-            this.recordtimeDataGridViewTextBoxColumn.HeaderText = "Record_time";
-            this.recordtimeDataGridViewTextBoxColumn.Name = "recordtimeDataGridViewTextBoxColumn";
-            this.recordtimeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.recordtimeDataGridViewTextBoxColumn.Width = 96;
-            // 
-            // binwarningDataGridViewTextBoxColumn
-            // 
-            this.binwarningDataGridViewTextBoxColumn.DataPropertyName = "b_in_warning";
-            this.binwarningDataGridViewTextBoxColumn.HeaderText = "b_in_warning";
-            this.binwarningDataGridViewTextBoxColumn.Name = "binwarningDataGridViewTextBoxColumn";
-            this.binwarningDataGridViewTextBoxColumn.ReadOnly = true;
-            this.binwarningDataGridViewTextBoxColumn.Width = 102;
-            // 
-            // binloadDataGridViewTextBoxColumn
-            // 
-            this.binloadDataGridViewTextBoxColumn.DataPropertyName = "b_in_load";
-            this.binloadDataGridViewTextBoxColumn.HeaderText = "b_in_load";
-            this.binloadDataGridViewTextBoxColumn.Name = "binloadDataGridViewTextBoxColumn";
-            this.binloadDataGridViewTextBoxColumn.ReadOnly = true;
-            this.binloadDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // eventtimeDataGridViewTextBoxColumn
-            // 
-            this.eventtimeDataGridViewTextBoxColumn.DataPropertyName = "event_time";
-            this.eventtimeDataGridViewTextBoxColumn.HeaderText = "event_time";
-            this.eventtimeDataGridViewTextBoxColumn.Name = "eventtimeDataGridViewTextBoxColumn";
-            this.eventtimeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.eventtimeDataGridViewTextBoxColumn.Width = 90;
-            // 
-            // leftminDataGridViewTextBoxColumn
-            // 
-            this.leftminDataGridViewTextBoxColumn.DataPropertyName = "Left_min";
-            this.leftminDataGridViewTextBoxColumn.HeaderText = "Left_min";
-            this.leftminDataGridViewTextBoxColumn.Name = "leftminDataGridViewTextBoxColumn";
-            this.leftminDataGridViewTextBoxColumn.ReadOnly = true;
-            this.leftminDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // lefthourDataGridViewTextBoxColumn
-            // 
-            this.lefthourDataGridViewTextBoxColumn.DataPropertyName = "Left_hour";
-            this.lefthourDataGridViewTextBoxColumn.HeaderText = "Left_hour";
-            this.lefthourDataGridViewTextBoxColumn.Name = "lefthourDataGridViewTextBoxColumn";
-            this.lefthourDataGridViewTextBoxColumn.ReadOnly = true;
-            this.lefthourDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // lefttimeDataGridViewTextBoxColumn
-            // 
-            this.lefttimeDataGridViewTextBoxColumn.DataPropertyName = "Left_time";
-            this.lefttimeDataGridViewTextBoxColumn.HeaderText = "Left_time";
-            this.lefttimeDataGridViewTextBoxColumn.Name = "lefttimeDataGridViewTextBoxColumn";
-            this.lefttimeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.lefttimeDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // bleftDataGridViewTextBoxColumn
-            // 
-            this.bleftDataGridViewTextBoxColumn.DataPropertyName = "b_left";
-            this.bleftDataGridViewTextBoxColumn.HeaderText = "b_left";
-            this.bleftDataGridViewTextBoxColumn.Name = "bleftDataGridViewTextBoxColumn";
-            this.bleftDataGridViewTextBoxColumn.ReadOnly = true;
-            this.bleftDataGridViewTextBoxColumn.Width = 66;
-            // 
-            // statusDataGridViewTextBoxColumn
-            // 
-            this.statusDataGridViewTextBoxColumn.DataPropertyName = "status";
-            this.statusDataGridViewTextBoxColumn.HeaderText = "status";
-            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
-            this.statusDataGridViewTextBoxColumn.ReadOnly = true;
-            this.statusDataGridViewTextBoxColumn.Width = 66;
-            // 
-            // uidDataGridViewTextBoxColumn
-            // 
-            this.uidDataGridViewTextBoxColumn.DataPropertyName = "Uid";
-            this.uidDataGridViewTextBoxColumn.HeaderText = "Uid";
-            this.uidDataGridViewTextBoxColumn.Name = "uidDataGridViewTextBoxColumn";
-            this.uidDataGridViewTextBoxColumn.ReadOnly = true;
-            this.uidDataGridViewTextBoxColumn.Width = 48;
-            // 
-            // value3DataGridViewTextBoxColumn
-            // 
-            this.value3DataGridViewTextBoxColumn.DataPropertyName = "Value3";
-            this.value3DataGridViewTextBoxColumn.HeaderText = "Value3";
-            this.value3DataGridViewTextBoxColumn.Name = "value3DataGridViewTextBoxColumn";
-            this.value3DataGridViewTextBoxColumn.ReadOnly = true;
-            this.value3DataGridViewTextBoxColumn.Width = 66;
-            // 
-            // value2DataGridViewTextBoxColumn
-            // 
-            this.value2DataGridViewTextBoxColumn.DataPropertyName = "Value2";
-            this.value2DataGridViewTextBoxColumn.HeaderText = "Value2";
-            this.value2DataGridViewTextBoxColumn.Name = "value2DataGridViewTextBoxColumn";
-            this.value2DataGridViewTextBoxColumn.ReadOnly = true;
-            this.value2DataGridViewTextBoxColumn.Width = 66;
-            // 
-            // value1DataGridViewTextBoxColumn
-            // 
-            this.value1DataGridViewTextBoxColumn.DataPropertyName = "Value1";
-            this.value1DataGridViewTextBoxColumn.HeaderText = "Value1";
-            this.value1DataGridViewTextBoxColumn.Name = "value1DataGridViewTextBoxColumn";
-            this.value1DataGridViewTextBoxColumn.ReadOnly = true;
-            this.value1DataGridViewTextBoxColumn.Width = 66;
-            // 
-            // tagIDDataGridViewTextBoxColumn
-            // 
-            this.tagIDDataGridViewTextBoxColumn.DataPropertyName = "Tag_ID";
-            this.tagIDDataGridViewTextBoxColumn.HeaderText = "Tag_ID";
-            this.tagIDDataGridViewTextBoxColumn.Name = "tagIDDataGridViewTextBoxColumn";
-            this.tagIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.tagIDDataGridViewTextBoxColumn.Width = 66;
-            // 
-            // readtimeDataGridViewTextBoxColumn
-            // 
-            this.readtimeDataGridViewTextBoxColumn.DataPropertyName = "Readtime";
-            this.readtimeDataGridViewTextBoxColumn.HeaderText = "Readtime";
-            this.readtimeDataGridViewTextBoxColumn.Name = "readtimeDataGridViewTextBoxColumn";
-            this.readtimeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.readtimeDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // readerIDDataGridViewTextBoxColumn
-            // 
-            this.readerIDDataGridViewTextBoxColumn.DataPropertyName = "Reader_ID";
-            this.readerIDDataGridViewTextBoxColumn.HeaderText = "Reader_ID";
-            this.readerIDDataGridViewTextBoxColumn.Name = "readerIDDataGridViewTextBoxColumn";
-            this.readerIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.readerIDDataGridViewTextBoxColumn.Width = 84;
-            // 
-            // bConnectDataGridViewTextBoxColumn
-            // 
-            this.bConnectDataGridViewTextBoxColumn.DataPropertyName = "bConnect";
-            this.bConnectDataGridViewTextBoxColumn.HeaderText = "bConnect";
-            this.bConnectDataGridViewTextBoxColumn.Name = "bConnectDataGridViewTextBoxColumn";
-            this.bConnectDataGridViewTextBoxColumn.ReadOnly = true;
-            this.bConnectDataGridViewTextBoxColumn.Width = 78;
-            // 
-            // bVoltLowDataGridViewTextBoxColumn
-            // 
-            this.bVoltLowDataGridViewTextBoxColumn.DataPropertyName = "b_VoltLow";
-            this.bVoltLowDataGridViewTextBoxColumn.HeaderText = "b_VoltLow";
-            this.bVoltLowDataGridViewTextBoxColumn.Name = "bVoltLowDataGridViewTextBoxColumn";
-            this.bVoltLowDataGridViewTextBoxColumn.ReadOnly = true;
-            this.bVoltLowDataGridViewTextBoxColumn.Width = 84;
+            this.sqlSendTimeDataGridViewTextBoxColumn.DataPropertyName = "SqlSendTime";
+            this.sqlSendTimeDataGridViewTextBoxColumn.HeaderText = "SqlSendTime";
+            this.sqlSendTimeDataGridViewTextBoxColumn.Name = "sqlSendTimeDataGridViewTextBoxColumn";
+            this.sqlSendTimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.sqlSendTimeDataGridViewTextBoxColumn.Width = 96;
             // 
             // HospitalName
             // 
@@ -642,13 +358,297 @@
             this.HospitalName.ReadOnly = true;
             this.HospitalName.Width = 102;
             // 
-            // sqlSendTimeDataGridViewTextBoxColumn
+            // bVoltLowDataGridViewTextBoxColumn
             // 
-            this.sqlSendTimeDataGridViewTextBoxColumn.DataPropertyName = "SqlSendTime";
-            this.sqlSendTimeDataGridViewTextBoxColumn.HeaderText = "SqlSendTime";
-            this.sqlSendTimeDataGridViewTextBoxColumn.Name = "sqlSendTimeDataGridViewTextBoxColumn";
-            this.sqlSendTimeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.sqlSendTimeDataGridViewTextBoxColumn.Width = 96;
+            this.bVoltLowDataGridViewTextBoxColumn.DataPropertyName = "b_VoltLow";
+            this.bVoltLowDataGridViewTextBoxColumn.HeaderText = "b_VoltLow";
+            this.bVoltLowDataGridViewTextBoxColumn.Name = "bVoltLowDataGridViewTextBoxColumn";
+            this.bVoltLowDataGridViewTextBoxColumn.ReadOnly = true;
+            this.bVoltLowDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // bConnectDataGridViewTextBoxColumn
+            // 
+            this.bConnectDataGridViewTextBoxColumn.DataPropertyName = "bConnect";
+            this.bConnectDataGridViewTextBoxColumn.HeaderText = "bConnect";
+            this.bConnectDataGridViewTextBoxColumn.Name = "bConnectDataGridViewTextBoxColumn";
+            this.bConnectDataGridViewTextBoxColumn.ReadOnly = true;
+            this.bConnectDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // readerIDDataGridViewTextBoxColumn
+            // 
+            this.readerIDDataGridViewTextBoxColumn.DataPropertyName = "Reader_ID";
+            this.readerIDDataGridViewTextBoxColumn.HeaderText = "Reader_ID";
+            this.readerIDDataGridViewTextBoxColumn.Name = "readerIDDataGridViewTextBoxColumn";
+            this.readerIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.readerIDDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // readtimeDataGridViewTextBoxColumn
+            // 
+            this.readtimeDataGridViewTextBoxColumn.DataPropertyName = "Readtime";
+            this.readtimeDataGridViewTextBoxColumn.HeaderText = "Readtime";
+            this.readtimeDataGridViewTextBoxColumn.Name = "readtimeDataGridViewTextBoxColumn";
+            this.readtimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.readtimeDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // tagIDDataGridViewTextBoxColumn
+            // 
+            this.tagIDDataGridViewTextBoxColumn.DataPropertyName = "Tag_ID";
+            this.tagIDDataGridViewTextBoxColumn.HeaderText = "Tag_ID";
+            this.tagIDDataGridViewTextBoxColumn.Name = "tagIDDataGridViewTextBoxColumn";
+            this.tagIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tagIDDataGridViewTextBoxColumn.Width = 66;
+            // 
+            // value1DataGridViewTextBoxColumn
+            // 
+            this.value1DataGridViewTextBoxColumn.DataPropertyName = "Value1";
+            this.value1DataGridViewTextBoxColumn.HeaderText = "Value1";
+            this.value1DataGridViewTextBoxColumn.Name = "value1DataGridViewTextBoxColumn";
+            this.value1DataGridViewTextBoxColumn.ReadOnly = true;
+            this.value1DataGridViewTextBoxColumn.Width = 66;
+            // 
+            // value2DataGridViewTextBoxColumn
+            // 
+            this.value2DataGridViewTextBoxColumn.DataPropertyName = "Value2";
+            this.value2DataGridViewTextBoxColumn.HeaderText = "Value2";
+            this.value2DataGridViewTextBoxColumn.Name = "value2DataGridViewTextBoxColumn";
+            this.value2DataGridViewTextBoxColumn.ReadOnly = true;
+            this.value2DataGridViewTextBoxColumn.Width = 66;
+            // 
+            // value3DataGridViewTextBoxColumn
+            // 
+            this.value3DataGridViewTextBoxColumn.DataPropertyName = "Value3";
+            this.value3DataGridViewTextBoxColumn.HeaderText = "Value3";
+            this.value3DataGridViewTextBoxColumn.Name = "value3DataGridViewTextBoxColumn";
+            this.value3DataGridViewTextBoxColumn.ReadOnly = true;
+            this.value3DataGridViewTextBoxColumn.Width = 66;
+            // 
+            // uidDataGridViewTextBoxColumn
+            // 
+            this.uidDataGridViewTextBoxColumn.DataPropertyName = "Uid";
+            this.uidDataGridViewTextBoxColumn.HeaderText = "Uid";
+            this.uidDataGridViewTextBoxColumn.Name = "uidDataGridViewTextBoxColumn";
+            this.uidDataGridViewTextBoxColumn.ReadOnly = true;
+            this.uidDataGridViewTextBoxColumn.Width = 48;
+            // 
+            // statusDataGridViewTextBoxColumn
+            // 
+            this.statusDataGridViewTextBoxColumn.DataPropertyName = "status";
+            this.statusDataGridViewTextBoxColumn.HeaderText = "status";
+            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
+            this.statusDataGridViewTextBoxColumn.ReadOnly = true;
+            this.statusDataGridViewTextBoxColumn.Width = 66;
+            // 
+            // bleftDataGridViewTextBoxColumn
+            // 
+            this.bleftDataGridViewTextBoxColumn.DataPropertyName = "b_left";
+            this.bleftDataGridViewTextBoxColumn.HeaderText = "b_left";
+            this.bleftDataGridViewTextBoxColumn.Name = "bleftDataGridViewTextBoxColumn";
+            this.bleftDataGridViewTextBoxColumn.ReadOnly = true;
+            this.bleftDataGridViewTextBoxColumn.Width = 66;
+            // 
+            // lefttimeDataGridViewTextBoxColumn
+            // 
+            this.lefttimeDataGridViewTextBoxColumn.DataPropertyName = "Left_time";
+            this.lefttimeDataGridViewTextBoxColumn.HeaderText = "Left_time";
+            this.lefttimeDataGridViewTextBoxColumn.Name = "lefttimeDataGridViewTextBoxColumn";
+            this.lefttimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.lefttimeDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // lefthourDataGridViewTextBoxColumn
+            // 
+            this.lefthourDataGridViewTextBoxColumn.DataPropertyName = "Left_hour";
+            this.lefthourDataGridViewTextBoxColumn.HeaderText = "Left_hour";
+            this.lefthourDataGridViewTextBoxColumn.Name = "lefthourDataGridViewTextBoxColumn";
+            this.lefthourDataGridViewTextBoxColumn.ReadOnly = true;
+            this.lefthourDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // leftminDataGridViewTextBoxColumn
+            // 
+            this.leftminDataGridViewTextBoxColumn.DataPropertyName = "Left_min";
+            this.leftminDataGridViewTextBoxColumn.HeaderText = "Left_min";
+            this.leftminDataGridViewTextBoxColumn.Name = "leftminDataGridViewTextBoxColumn";
+            this.leftminDataGridViewTextBoxColumn.ReadOnly = true;
+            this.leftminDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // eventtimeDataGridViewTextBoxColumn
+            // 
+            this.eventtimeDataGridViewTextBoxColumn.DataPropertyName = "event_time";
+            this.eventtimeDataGridViewTextBoxColumn.HeaderText = "event_time";
+            this.eventtimeDataGridViewTextBoxColumn.Name = "eventtimeDataGridViewTextBoxColumn";
+            this.eventtimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.eventtimeDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // binloadDataGridViewTextBoxColumn
+            // 
+            this.binloadDataGridViewTextBoxColumn.DataPropertyName = "b_in_load";
+            this.binloadDataGridViewTextBoxColumn.HeaderText = "b_in_load";
+            this.binloadDataGridViewTextBoxColumn.Name = "binloadDataGridViewTextBoxColumn";
+            this.binloadDataGridViewTextBoxColumn.ReadOnly = true;
+            this.binloadDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // binwarningDataGridViewTextBoxColumn
+            // 
+            this.binwarningDataGridViewTextBoxColumn.DataPropertyName = "b_in_warning";
+            this.binwarningDataGridViewTextBoxColumn.HeaderText = "b_in_warning";
+            this.binwarningDataGridViewTextBoxColumn.Name = "binwarningDataGridViewTextBoxColumn";
+            this.binwarningDataGridViewTextBoxColumn.ReadOnly = true;
+            this.binwarningDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // recordtimeDataGridViewTextBoxColumn
+            // 
+            this.recordtimeDataGridViewTextBoxColumn.DataPropertyName = "Record_time";
+            this.recordtimeDataGridViewTextBoxColumn.HeaderText = "Record_time";
+            this.recordtimeDataGridViewTextBoxColumn.Name = "recordtimeDataGridViewTextBoxColumn";
+            this.recordtimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.recordtimeDataGridViewTextBoxColumn.Width = 96;
+            // 
+            // tagRoomIdDataGridViewTextBoxColumn
+            // 
+            this.tagRoomIdDataGridViewTextBoxColumn.DataPropertyName = "Tag_RoomId";
+            this.tagRoomIdDataGridViewTextBoxColumn.HeaderText = "Tag_RoomId";
+            this.tagRoomIdDataGridViewTextBoxColumn.Name = "tagRoomIdDataGridViewTextBoxColumn";
+            this.tagRoomIdDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tagRoomIdDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // tagBedIdDataGridViewTextBoxColumn
+            // 
+            this.tagBedIdDataGridViewTextBoxColumn.DataPropertyName = "Tag_BedId";
+            this.tagBedIdDataGridViewTextBoxColumn.HeaderText = "Tag_BedId";
+            this.tagBedIdDataGridViewTextBoxColumn.Name = "tagBedIdDataGridViewTextBoxColumn";
+            this.tagBedIdDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tagBedIdDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1169, 451);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Tag = "2";
+            this.tabPage2.Text = "日志";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AllowUserToAddRows = false;
+            this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.logtypeDataGridViewTextBoxColumn,
+            this.infonumDataGridViewTextBoxColumn,
+            this.infovalueDataGridViewTextBoxColumn,
+            this.controlerDataGridViewTextBoxColumn,
+            this.loglogtimeDataGridViewTextBoxColumn,
+            this.loginfoclassDataGridViewTextBoxColumn,
+            this.logdiscribeDataGridViewTextBoxColumn,
+            this.sqlSendTimeDataGridViewTextBoxColumn1,
+            this.hospitalNameDataGridViewTextBoxColumn});
+            this.dataGridView2.DataSource = this.tHosLog2BindingSource;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(1163, 445);
+            this.dataGridView2.TabIndex = 0;
+            this.dataGridView2.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting_1);
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.Width = 42;
+            // 
+            // logtypeDataGridViewTextBoxColumn
+            // 
+            this.logtypeDataGridViewTextBoxColumn.DataPropertyName = "log_type";
+            this.logtypeDataGridViewTextBoxColumn.HeaderText = "log_type";
+            this.logtypeDataGridViewTextBoxColumn.Name = "logtypeDataGridViewTextBoxColumn";
+            this.logtypeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.logtypeDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // infonumDataGridViewTextBoxColumn
+            // 
+            this.infonumDataGridViewTextBoxColumn.DataPropertyName = "Info_num";
+            this.infonumDataGridViewTextBoxColumn.HeaderText = "Info_num";
+            this.infonumDataGridViewTextBoxColumn.Name = "infonumDataGridViewTextBoxColumn";
+            this.infonumDataGridViewTextBoxColumn.ReadOnly = true;
+            this.infonumDataGridViewTextBoxColumn.Width = 78;
+            // 
+            // infovalueDataGridViewTextBoxColumn
+            // 
+            this.infovalueDataGridViewTextBoxColumn.DataPropertyName = "Info_value";
+            this.infovalueDataGridViewTextBoxColumn.HeaderText = "Info_value";
+            this.infovalueDataGridViewTextBoxColumn.Name = "infovalueDataGridViewTextBoxColumn";
+            this.infovalueDataGridViewTextBoxColumn.ReadOnly = true;
+            this.infovalueDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // controlerDataGridViewTextBoxColumn
+            // 
+            this.controlerDataGridViewTextBoxColumn.DataPropertyName = "Controler";
+            this.controlerDataGridViewTextBoxColumn.HeaderText = "Controler";
+            this.controlerDataGridViewTextBoxColumn.Name = "controlerDataGridViewTextBoxColumn";
+            this.controlerDataGridViewTextBoxColumn.ReadOnly = true;
+            this.controlerDataGridViewTextBoxColumn.Width = 84;
+            // 
+            // loglogtimeDataGridViewTextBoxColumn
+            // 
+            this.loglogtimeDataGridViewTextBoxColumn.DataPropertyName = "log_logtime";
+            this.loglogtimeDataGridViewTextBoxColumn.HeaderText = "log_logtime";
+            this.loglogtimeDataGridViewTextBoxColumn.Name = "loglogtimeDataGridViewTextBoxColumn";
+            this.loglogtimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.loglogtimeDataGridViewTextBoxColumn.Width = 96;
+            // 
+            // loginfoclassDataGridViewTextBoxColumn
+            // 
+            this.loginfoclassDataGridViewTextBoxColumn.DataPropertyName = "log_infoclass";
+            this.loginfoclassDataGridViewTextBoxColumn.HeaderText = "log_infoclass";
+            this.loginfoclassDataGridViewTextBoxColumn.Name = "loginfoclassDataGridViewTextBoxColumn";
+            this.loginfoclassDataGridViewTextBoxColumn.ReadOnly = true;
+            this.loginfoclassDataGridViewTextBoxColumn.Width = 108;
+            // 
+            // logdiscribeDataGridViewTextBoxColumn
+            // 
+            this.logdiscribeDataGridViewTextBoxColumn.DataPropertyName = "log_discribe";
+            this.logdiscribeDataGridViewTextBoxColumn.HeaderText = "log_discribe";
+            this.logdiscribeDataGridViewTextBoxColumn.Name = "logdiscribeDataGridViewTextBoxColumn";
+            this.logdiscribeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.logdiscribeDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // sqlSendTimeDataGridViewTextBoxColumn1
+            // 
+            this.sqlSendTimeDataGridViewTextBoxColumn1.DataPropertyName = "SqlSendTime";
+            this.sqlSendTimeDataGridViewTextBoxColumn1.HeaderText = "SqlSendTime";
+            this.sqlSendTimeDataGridViewTextBoxColumn1.Name = "sqlSendTimeDataGridViewTextBoxColumn1";
+            this.sqlSendTimeDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.sqlSendTimeDataGridViewTextBoxColumn1.Width = 96;
+            // 
+            // hospitalNameDataGridViewTextBoxColumn
+            // 
+            this.hospitalNameDataGridViewTextBoxColumn.DataPropertyName = "HospitalName";
+            this.hospitalNameDataGridViewTextBoxColumn.HeaderText = "HospitalName";
+            this.hospitalNameDataGridViewTextBoxColumn.Name = "hospitalNameDataGridViewTextBoxColumn";
+            this.hospitalNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.hospitalNameDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.dataGridView3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1169, 451);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Tag = "3";
+            this.tabPage3.Text = "出入院记录";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -670,11 +670,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.tHosUserRec1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qds114325507_dbDataSet2)).EndInit();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

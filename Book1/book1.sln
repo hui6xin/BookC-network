@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STest", "STest\STest.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{BEE6150D-C2F7-427A-9C08-33687BDD8865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sjustmytestsql", "Sjustmytestsql\Sjustmytestsql.csproj", "{F30BA5C4-32F4-4A48-9910-273C07CD430B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S从sqlserver获取上传的数据", "Sjustmytestsql\S从sqlserver获取上传的数据.csproj", "{F30BA5C4-32F4-4A48-9910-273C07CD430B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms3.1", "WindowsForms3.1\WindowsForms3.1.csproj", "{5691FC2E-5635-42FD-ABC4-27BCE1D007B8}"
 EndProject
