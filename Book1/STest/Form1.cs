@@ -52,6 +52,44 @@ namespace STest
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int[] height = { 0, 1, 0, 2, 1, 0, 1, 2, 2, 1, 3, 1 };
+            if (height.Length <= 2)
+            {
+                label1.Text = "0";
+                return;
+            }
+            int ret = 0;
+            int l = 0;
+            int r = height.Count() - 1;
+            int left = height[0];
+            int right = height[r];
+            while (l < r)
+            {
+                if (left <= right)
+                {
+                    l++;
+                    if (height[l] >= left)
+                    {
+                        left = height[l];
+                    }
+                    else 
+                        ret += (left - height[l]);
+                }
+                else
+                {
+                    r--;
+                    if (height[r] >= right)
+                    {
+                        right = height[r];
+                    }
+                    else ret += (right - height[r]);
+                }
+            }
+            label1.Text= ret.ToString();
+        }
         
 
 
