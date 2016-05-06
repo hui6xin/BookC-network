@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.IO;
+using System.Diagnostics;
+using System.Management;
+using System.Collections.Generic;
 
 using System;using System.Collections.Generic;
 using System.Linq;using System.Text;
@@ -110,42 +113,39 @@ namespace CheckWriter
             return ConvertNumberToWords(i) + " DOLLARS AND " + ConvertNumberToWords(p) + " CENTS";
             string sss = "111";
         }   
-    }
-    
-}
+        //上面的代码中两个核心函数是ConvertNumberToWords和ConvertThreeDigitToWords，ConvertThreeDigitToWords的作用主要是能将小于1000的整数转为相应的金额，而ConvertNumberToWords负责将不同段的金额组合成完整的金额，主要是加上了该金额对应的位，例如本程序由于只要求对20亿以内的数字进行处理，因此分为千，百万和十亿三档。理解好了这两个函数基本就能知道是怎么做的。
+        //（编辑： dotnetstudio）
+        public static string ConvertDecimalToRoman(int number)       
+        {          
+            int[] decArray = {1000,900,500,400,100,90,50,40,10,9,5,4,1};     
+            string[] romAarry = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };     
+            int i = 0;        
+            string output = "";   
+            while (number > 0)          
+            {          
+                while (number >= decArray[i])    
+                {                
+                    number = number - decArray[i];  
+                    output = output + romAarry[i];           
+                }            
+                i++;     
+            }       
+            return output;  
+        }
 
-//上面的代码中两个核心函数是ConvertNumberToWords和ConvertThreeDigitToWords，ConvertThreeDigitToWords的作用主要是能将小于1000的整数转为相应的金额，而ConvertNumberToWords负责将不同段的金额组合成完整的金额，主要是加上了该金额对应的位，例如本程序由于只要求对20亿以内的数字进行处理，因此分为千，百万和十亿三档。理解好了这两个函数基本就能知道是怎么做的。
-//（编辑： dotnetstudio）
-public static string ConvertDecimalToRoman(int number)       
-{          
-    int[] decArray = {1000,900,500,400,100,90,50,40,10,9,5,4,1};     
-    string[] romAarry = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };     
-    int i = 0;        
-    string output = "";   
-    while (number > 0)          
-    {          
-        while (number >= decArray[i])    
-        {                
-            number = number - decArray[i];  
-            output = output + romAarry[i];           
-        }            
-        i++;     
-    }       
-    return output;  
-}
+        //测试数据
+        //7                        VII
+        //1981                 MCMLXXXI
+        //99                     XCIX
+        //700                   DCC
+        //经测试，测试数据全部通过。
 
-//测试数据
-//7                        VII
-//1981                 MCMLXXXI
-//99                     XCIX
-//700                   DCC
-//经测试，测试数据全部通过。
- /// 
+        /// 
         /// 罗马数字转十进制数        /// 
         ///
          public static int ConvertRomanToDecimal(string number)      
         {            
-            Dictionary dic = new Dictionary();       
+            Dictionary<string,int> dic = new System.Collections.Generic.Dictionary<string,int>;       
             dic.Add("M", 1000);        
             dic.Add("CM", 900);            
             dic.Add("D", 500);     
@@ -170,7 +170,7 @@ public static string ConvertDecimalToRoman(int number)
                 int sum = 0;           
                 while (i < len)             
                 {                 
-                     step = 1;      
+                    int step = 1;      
                     if (len - i > 1)      
                     {                  
                     step = 2;          
@@ -190,41 +190,42 @@ public static string ConvertDecimalToRoman(int number)
                  return sum;    
             }          
             return -1;    
-       }  
-}
-        /// 
+       } 
+         /// 
         /// 十进制转罗马数字        /// 
-    public static string ConvertDecimalToRoman(int number)     
-    {           
-        int[] decArray = {1000,900,500,400,100,90,50,40,10,9,5,4,1};    
-        string[] romAarry = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };      
-        int i = 0;          
-        string output = "";     
-        while (number > 0)     
-        {               
-            while (number >= decArray[i])       
-            {                   
-                number = number - decArray[i];  
-                output = output + romAarry[i];        
-            }              
-            i++;         
-        }         
-        return output;    
-    }   
+        public static string ConvertDecimalToRoman(int number)     
+        {           
+            int[] decArray = {1000,900,500,400,100,90,50,40,10,9,5,4,1};    
+            string[] romAarry = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };      
+            int i = 0;          
+            string output = "";     
+            while (number > 0)     
+            {               
+                while (number >= decArray[i])       
+                {                   
+                    number = number - decArray[i];  
+                    output = output + romAarry[i];        
+                }              
+                i++;         
+            }         
+            return output;    
+        }   
         /// 
         /// 加法器        /// 
         /// 输入罗马加法公式        ///    
-public static string RomanCalculator(string s)      
-{           
-    string[] array = s.Split('+');         
-    int sum = ConvertRomanToDecimal(array[0].Trim()) + ConvertRomanToDecimal(array[1].Trim());   
-    return ConvertDecimalToRoman(sum);    
-}
+        public static string RomanCalculator(string s)      
+        {           
+            string[] array = s.Split('+');         
+            int sum = ConvertRomanToDecimal(array[0].Trim()) + ConvertRomanToDecimal(array[1].Trim());   
+            return ConvertDecimalToRoman(sum);    
+        }
 
-//调用RomanCalculator()函数，输入如下的测试数据进行测试。
-//Input                            Output
-//XX + II                           XXII
-//I + V                              VI
-//II + II                             IV
-//CCC + CCC               DC
-//D + D                           M
+        //调用RomanCalculator()函数，输入如下的测试数据进行测试。
+        //Input                            Output
+        //XX + II                           XXII
+        //I + V                              VI
+        //II + II                             IV
+        //CCC + CCC               DC
+        //D + D                           M
+            }
+}
