@@ -143,9 +143,9 @@ namespace CheckWriter
         /// 
         /// 罗马数字转十进制数        /// 
         ///
-         public static int ConvertRomanToDecimal(string number)      
+        public static int ConvertRomanToDecimal(string number)      
         {            
-            Dictionary<string,int> dic = new System.Collections.Generic.Dictionary<string,int>;       
+            Dictionary<string,int> dic = new System.Collections.Generic.Dictionary<string,int>();       
             dic.Add("M", 1000);        
             dic.Add("CM", 900);            
             dic.Add("D", 500);     
@@ -190,26 +190,7 @@ namespace CheckWriter
                  return sum;    
             }          
             return -1;    
-       } 
-         /// 
-        /// 十进制转罗马数字        /// 
-        public static string ConvertDecimalToRoman(int number)     
-        {           
-            int[] decArray = {1000,900,500,400,100,90,50,40,10,9,5,4,1};    
-            string[] romAarry = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };      
-            int i = 0;          
-            string output = "";     
-            while (number > 0)     
-            {               
-                while (number >= decArray[i])       
-                {                   
-                    number = number - decArray[i];  
-                    output = output + romAarry[i];        
-                }              
-                i++;         
-            }         
-            return output;    
-        }   
+       }    
         /// 
         /// 加法器        /// 
         /// 输入罗马加法公式        ///    

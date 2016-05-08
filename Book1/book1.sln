@@ -5,11 +5,11 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "book1", "book1\book1.vbproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{9F221C39-B97A-4457-9B5B-AB0F8727AF68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms2.2.1", "WindowsForms2.2.1\WindowsForms2.2.1.csproj", "{81CF6E13-8756-43E5-BE7C-46FF63E5BB83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-2.2.1", "WindowsForms2.2.1\Book1-2.2.1.csproj", "{81CF6E13-8756-43E5-BE7C-46FF63E5BB83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms2.2.2", "WindowsForms2.2.2\WindowsForms2.2.2.csproj", "{C7B5256F-19A9-4B09-9639-362348402CDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-2.2.2", "WindowsForms2.2.2\Book1-2.2.2.csproj", "{C7B5256F-19A9-4B09-9639-362348402CDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms2.3.3", "WindowsForms2.3.3\WindowsForms2.3.3.csproj", "{998E468F-2C67-4D7E-A173-F5D04DC74A95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-2.3.3", "WindowsForms2.3.3\Book1-2.3.3.csproj", "{998E468F-2C67-4D7E-A173-F5D04DC74A95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SForm截图", "去除button聚焦框\SForm截图.csproj", "{5C4946B9-904D-4664-BCA2-D7B41B8DFC05}"
 EndProject
@@ -23,9 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SScrnShot", "SScrnShot\SScr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCloseform", "Scloseform\SCloseform.csproj", "{25E802CA-4403-429A-B7C1-89E97A702751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms2.4.3Lock语句", "WindowsForms2.4.3\WindowsForms2.4.3Lock语句.csproj", "{26D3FD8C-7795-4EAC-AB4D-2D022C6DCD6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-2.4.3Lock语句", "WindowsForms2.4.3\Book1-2.4.3Lock语句.csproj", "{26D3FD8C-7795-4EAC-AB4D-2D022C6DCD6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms2.5", "WindowsForms2.5\WindowsForms2.5.csproj", "{63C01408-1985-4ED1-BBDA-024FF653921D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-2.5", "WindowsForms2.5\Book1-2.5.csproj", "{63C01408-1985-4ED1-BBDA-024FF653921D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SChangetoGray彩色转化成灰色反色", "SChangetoGray\SChangetoGray彩色转化成灰色反色.csproj", "{F4FD5E72-5986-4988-BDF3-4C54A408278D}"
 EndProject
@@ -35,17 +35,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S从sqlserver获取上传的数据", "Sjustmytestsql\S从sqlserver获取上传的数据.csproj", "{F30BA5C4-32F4-4A48-9910-273C07CD430B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms3.1", "WindowsForms3.1\WindowsForms3.1.csproj", "{5691FC2E-5635-42FD-ABC4-27BCE1D007B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-3.1", "WindowsForms3.1\Book1-3.1.csproj", "{5691FC2E-5635-42FD-ABC4-27BCE1D007B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapLibrary", "SnapLibrary\SnapLibrary.csproj", "{E6717006-D72C-4B7B-8DF7-9BB1CAAD96BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms3.2", "WindowsForms3.2\WindowsForms3.2.csproj", "{C4008479-6FFC-4F49-AD35-E9FD2CD1E2EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-3.2", "WindowsForms3.2\Book1-3.2.csproj", "{C4008479-6FFC-4F49-AD35-E9FD2CD1E2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms3.3", "WindowsForms3.3\WindowsForms3.3.csproj", "{789AE38A-E8E1-423B-B533-346A85B7DE16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-3.3", "WindowsForms3.3\Book1-3.3.csproj", "{789AE38A-E8E1-423B-B533-346A85B7DE16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms4", "WindowsForms4\WindowsForms4.csproj", "{7B610BC0-E895-4A26-9E8A-5E89386F584A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-4", "WindowsForms4\Book1-4.csproj", "{7B610BC0-E895-4A26-9E8A-5E89386F584A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms5", "WindowsForms5\WindowsForms5.csproj", "{3E6F1A14-00A8-4F5A-82C6-068FDFF33FE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book1-5", "WindowsForms5\Book1-5.csproj", "{3E6F1A14-00A8-4F5A-82C6-068FDFF33FE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingRoundStlye", "DrawingRoundStlye\DrawingRoundStlye.csproj", "{18386B9B-62F6-4125-BC26-B7405006A31B}"
 EndProject
