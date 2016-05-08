@@ -90,6 +90,45 @@ namespace STest
             }
             label1.Text= ret.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Cat cat = new Cat();
+            Mouse mouse1 = new Mouse("mouse1", cat);
+            Mouse mouse2 = new Mouse("mouse2", cat);
+            Master master = new Master(cat);
+            cat.Cry();
+
+            char[] name = { 'A', 'B', 'C', 'D', 'E' };
+            int[] value = new int[5];
+            for (value[0] = 0; value[0] < 2; value[0]++)
+                for (value[1] = 0; value[1] < 2; value[1]++)
+                    for (value[2] = 0; value[2] < 2; value[2]++)
+                        for (value[3] = 0; value[3] < 2; value[3]++)
+                            for (value[4] = 0; value[4] < 2; value[4]++)
+                            {
+                                if ((value[1] >= value[0]) && (value[1] + value[2] == 1) && (value[2] == value[3]) && (value[3] + value[4] == 1) && (value[4] == 0 || value[4] == 1 && value[0] == 1 && value[3] == 1))
+                                {
+                                    for (int i = 0; i < 5; i++)
+                                    {
+                                        if (value[i] == 1)
+                                        {
+                                            Console.WriteLine("{0}参加", name[i]);
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("{0}不参加", name[i]);
+                                        }
+                                    }
+                                }
+                            }
+
+            String s = "1234";
+            int sum = 0;
+            for (int i = 0; i < s.Length; i++)
+                sum = sum * 10 + (s[i] - '0');
+            Console.WriteLine( sum);
+        }
         
 
 

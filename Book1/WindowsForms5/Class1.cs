@@ -1,15 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
-using System.Diagnostics;
-using System.Management;
-using System.Collections.Generic;
 
-using System;using System.Collections.Generic;
-using System.Linq;using System.Text;
-using System.Threading.Tasks;
 namespace CheckWriter
 {
     class Program    
@@ -18,12 +9,12 @@ namespace CheckWriter
             "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen","Sixteen", "Seventeen", "Eighteen", "Nineteen"};
         private static string[] _lessHundredNumbers = new string[]{"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty","Ninety"};
         private static string[] _scaleNumbers = new string[] { "", "Thousand", "Million", "Billion" };
-        static void Main(string[] args)        
-        {           
-            string s = ConvertDecimalToWords(1258276.25);           
-            Console.WriteLine(s);           
-            Console.Read();        
-        }        
+        //static void Main(string[] args)        
+       // {           
+            //string s = ConvertDecimalToWords(1258276.25);           
+            //Console.WriteLine(s);           
+           // Console.Read();        
+        //}        
         /// 
         /// 将数字转为英文描述        
         ///  
@@ -208,5 +199,63 @@ namespace CheckWriter
         //II + II                             IV
         //CCC + CCC               DC
         //D + D                           M
-            }
+    }
+    public delegate void SubEventHandler();
+    public abstract class Subject
+    {
+        public event SubEventHandler SubEvent;
+        protected void FireAway()
+        {
+            if (this.SubEvent != null)
+                this.SubEvent();
+        }
+    }
+    public  class Cat : Subject
+    {
+        public void Cry() 
+        { 
+          Console.WriteLine("cat cryed."); 
+          this.FireAway(); 
+        }
+    }
+    public abstract class Observer
+    {
+        public Observer(Subject sub)
+        {
+            sub.SubEvent += new SubEventHandler(Response);
+        }
+        public abstract void Response();
+    }
+    public class Mouse : Observer
+    {
+        private string name;
+        public Mouse(string name, Subject sub)
+            : base(sub)
+        {
+            this.name = name;
+        }
+        public override void Response() 
+        { 
+          Console.WriteLine(name + "attempt to escape!"); 
+        }
+    }
+    public class Master : Observer
+    {
+        public Master(Subject sub) : base(sub) { }
+        public override void Response() 
+        { 
+          Console.WriteLine("host waken"); 
+        }
+    }
+    class Class1
+    {
+        //static void Main(string[] args)
+        //{
+            //Cat cat = new Cat();
+            //Mouse mouse1 = new Mouse(mouse1, cat);
+            //Mouse mouse2 = new Mouse(mouse2, cat);
+            //Master master = new Master(cat);
+            //cat.Cry();
+        //}
+    }
 }
