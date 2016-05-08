@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WebApplication1">
+</Property><Property Name="解决方案文件" Value="C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\WebApplication1.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\WebApplication1.suo">
+</Property><Property Name="Date" Value="2016/05/09">
+</Property><Property Name="Time" Value="7:35">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WebApplication1.sln" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WebApplication1.suo" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1.suo">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebApplication1.csproj" Description="项目文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\WebApplication1.csproj">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebApplication1.csproj.user" Description="项目用户文件成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\WebApplication1.csproj.user">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\Default.aspx.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\Default.aspx.designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebForm1.aspx.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\WebForm1.aspx.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebForm1.aspx.designer.cs" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\WebForm1.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\Default.aspx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\Default.aspx">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\Web.config" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\Web.config">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebForm1.aspx" Description="文件已成功备份为 C:\Users\lenovo\Desktop\21928-newnewcode\21928 C#网络应用编程（第2版）源程序\ch08\E02-HttpPostExample\WebApplication1\Backup\WebApplication1\WebForm1.aspx">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebApplication1.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="WebApplication1" Source="WebApplication1\WebApplication1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WebApplication1.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="WebApplication1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WebApplication1" Source="WebApplication1\WebApplication1.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

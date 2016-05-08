@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptFileExample", "EncryptFileExample\EncryptFileExample.csproj", "{940C6E85-99D7-436F-ADF5-2F03C0E4F75A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940C6E85-99D7-436F-ADF5-2F03C0E4F75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940C6E85-99D7-436F-ADF5-2F03C0E4F75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940C6E85-99D7-436F-ADF5-2F03C0E4F75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940C6E85-99D7-436F-ADF5-2F03C0E4F75A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
