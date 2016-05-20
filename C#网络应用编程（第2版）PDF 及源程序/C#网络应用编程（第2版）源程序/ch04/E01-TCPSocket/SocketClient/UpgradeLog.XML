@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SocketClient">
+</Property><Property Name="解决方案文件" Value="C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\SocketClient.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\SocketClient.suo">
+</Property><Property Name="Date" Value="2013年10月9日">
+</Property><Property Name="Time" Value="12:03">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SocketClient.sln" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\Backup\SocketClient.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SocketClient.suo" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\Backup\SocketClient.suo">
+</Event><Event ErrorLevel="0" Project="SocketClient" Source="SocketClient\SocketClient.csproj" Description="项目文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\Backup\SocketClient\SocketClient.csproj">
+</Event><Event ErrorLevel="0" Project="SocketClient" Source="SocketClient\Program.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\Backup\SocketClient\Program.cs">
+</Event><Event ErrorLevel="0" Project="SocketClient" Source="SocketClient\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch04\E01-TCPSocket\SocketClient\Backup\SocketClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SocketClient" Source="SocketClient\SocketClient.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SocketClient" Source="SocketClient\SocketClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SocketClient.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="SocketClient.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SocketClient" Source="SocketClient\SocketClient.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

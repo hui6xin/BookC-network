@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SyncChatClient">
+</Property><Property Name="解决方案文件" Value="C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\SyncChatClient.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\SyncChatClient.suo">
+</Property><Property Name="Date" Value="2013年10月11日">
+</Property><Property Name="Time" Value="15:52">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SyncChatClient.sln" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SyncChatClient.suo" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient.suo">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\SyncChatClient.csproj" Description="项目文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\SyncChatClient.csproj">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\MainForm.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\MainForm.Designer.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\Program.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\Program.cs">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\Properties\Settings.settings" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\MainForm.resx" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\Properties\Resources.resx" Description="文件已成功备份为 C:\Users\skybluewang\Desktop\21928 C#网络应用编程（第2版）源程序\ch05\E01-SyncChat\SyncChatClient\Backup\SyncChatClient\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="SyncChatClient" Source="SyncChatClient\SyncChatClient.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\SyncChatClient.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SyncChatClient" Source="SyncChatClient\SyncChatClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SyncChatClient.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="SyncChatClient.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SyncChatClient" Source="SyncChatClient\SyncChatClient.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

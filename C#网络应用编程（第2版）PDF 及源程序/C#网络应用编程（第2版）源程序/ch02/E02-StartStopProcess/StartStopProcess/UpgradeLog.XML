@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="StartStopProcess">
+</Property><Property Name="解决方案文件" Value="D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\StartStopProcess.sln">
+</Property><Property Name="用户选项文件" Value="D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\StartStopProcess.suo">
+</Property><Property Name="Date" Value="2014年4月23日">
+</Property><Property Name="Time" Value="15:28">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="StartStopProcess.sln" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess.sln">
+</Event><Event ErrorLevel="0" Project="" Source="StartStopProcess.suo" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess.suo">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\StartStopProcess.csproj" Description="项目文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\StartStopProcess.csproj">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Form1.cs" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Form1.cs">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Form1.designer.cs" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Form1.designer.cs">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Program.cs" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Program.cs">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Properties\AssemblyInfo.cs" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Properties\Resources.Designer.cs" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Properties\Settings.Designer.cs" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Properties\Settings.settings" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Form1.resx" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Form1.resx">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\Properties\Resources.resx" Description="文件已成功备份为 D:\迅雷下载\C#网络应用编程(第2版)\C#网络应用编程（第2版）PDF 及源程序\C#网络应用编程（第2版）源程序\ch02\E02-StartStopProcess\StartStopProcess\Backup\StartStopProcess\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\StartStopProcess.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="StartStopProcess" Source="StartStopProcess\StartStopProcess.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="StartStopProcess.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="StartStopProcess.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="StartStopProcess" Source="StartStopProcess\StartStopProcess.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
